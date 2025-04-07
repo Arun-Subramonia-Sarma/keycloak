@@ -1,0 +1,101 @@
+nameOverride: keycloak
+fullnameOverride: keycloak
+replicas: 1
+image:
+  registry: fourkitesdevelopment.azurecr.io
+  repository: fourkitesdevelopment.azurecr.io/facility/dyf/yms-keycloak-optimized
+  tag: latest
+# image:
+#   tag: "26.1.4"
+command:
+  - "/opt/keycloak/bin/kc.sh"
+  - "--verbose"
+  - "start"
+  - "--log-level=INFO,com.fk:trace"
+  # - "--features=admin-api,account-api,admin-fine-grained-authz"
+  # - "--http-port=8080"
+  # - "--hostname-strict=false"
+  # - "--spi-events-listener-jboss-logging-success-level=info"
+  # - "--spi-events-listener-jboss-logging-error-level=warn"
+  - "--optimized"
+# extraInitContainers: |
+#   - name: keycloak-build
+#     image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+#     command:
+#       - /opt/keycloak/bin/kc.sh
+#       - build
+#       - --http-relative-path=/keycloak
+#       - --health-enabled=true
+#       - --metrics-enabled=true
+#       - --db=postgres
+#     env:
+#       - name: KC_DB_SCHEMA
+#         value: keycloak_26_1_4
+#       - name: KC_DB_URL_HOST
+#         value: psql-dyf-db1-flexi-dev.postgres.database.azure.com
+#       - name: KC_DB_URL_PORT
+#         value: "5432"
+#       - name: KC_DB_URL_DATABASE
+#         value: keycloak_25_0_0
+#       - name: KC_DB_USERNAME
+#         value: keycloak
+#       - name: KC_DB_PASSWORD
+#         valueFrom:
+#           secretKeyRef:
+#             name: keycloak-secrets
+#             key: db-password
+#     volumeMounts:
+#       - name: data
+#         mountPath: /opt/keycloak/data
+database:
+  # don't create secret for db password. Instead use existing k8s secret
+  # existingSecret: "my-existent-dbpass-secret"
+  # existingSecretKey: "password"
+  existingSecret: keycloak-secrets
+  existingSecretKey: db-password
+  # E.g. dev-file, dev-mem, mariadb, mssql, mysql, oracle or postgres
+  vendor: postgres
+  hostname: psql-dyf-db1-flexi-dev.postgres.database.azure.com
+  port: 5432
+  database: keycloak_25_0_0
+  username: keycloak
+
+extraEnv: |
+  - name: KC_HEALTH_ENABLED
+    value: "true"
+  - name: KC_DB_SCHEMA
+    value: keycloak_26_1_4
+  - name: KC_FEATURES
+    value: "admin-api,account-api,admin-fine-grained-authz"
+  - name: KC_HOSTNAME_STRICT
+    value: "false"  
+  - name: KUBERNETES_NAMESPACE
+    valueFrom:
+      fieldRef:
+        fieldPath: metadata.namespace
+  - name: JGROUPS_DISCOVERY_PROTOCOL
+    value: dns.DNS_PING
+  - name: JGROUPS_DISCOVERY_PROPERTIES
+    value: dns_query=keycloak-headless.svc.cluster.local
+  - name: CACHE_OWNERS_COUNT
+    value: "2"
+  - name: CACHE_OWNERS_AUTH_SESSIONS_COUNT
+    value: "2"
+  - name: KC_CACHE
+    value: "ispn"
+  - name: KC_CACHE_STACK
+    value: "kubernetes"
+  - name: JAVA_OPTS_APPEND
+    value: "-Djgroups.dns.query=keycloak-headless"
+service:
+  # The http Service port
+  httpPort: 80
+http:
+  # For backwards compatibility reasons we set this to the value used by previous Keycloak versions.
+  relativePath: "/expkeycloak"
+extraVolumes: |-
+  - name: data
+    emptyDir: {}
+extraVolumeMounts: |-
+  - name: data
+    mountPath: /opt/keycloak/data
