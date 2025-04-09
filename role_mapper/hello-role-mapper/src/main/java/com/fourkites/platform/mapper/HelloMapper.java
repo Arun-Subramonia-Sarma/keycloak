@@ -6,6 +6,7 @@ import org.keycloak.models.ProtocolMapperModel;
 import org.keycloak.models.UserSessionModel;
 import org.keycloak.protocol.oidc.mappers.*;
 import org.keycloak.provider.ProviderConfigProperty;
+import org.keycloak.representations.AccessTokenResponse;
 import org.keycloak.representations.IDToken;
 
 import java.util.ArrayList;
@@ -105,5 +106,12 @@ public class HelloMapper extends AbstractOIDCProtocolMapper implements OIDCAcces
         logger.info("Entering the class "+this.getClass().getName()+" method setClaim");
 
         OIDCAttributeMapperHelper.mapClaim(token, mappingModel,"Hello, world" );
+    }
+
+    @Override
+    protected void setClaim(AccessTokenResponse accessTokenResponse, ProtocolMapperModel mappingModel, UserSessionModel userSession, KeycloakSession keycloakSession, ClientSessionContext clientSessionCtx) {
+        logger.info("Entering the class "+this.getClass().getName()+" method setClaim");
+
+        OIDCAttributeMapperHelper.mapClaim(accessTokenResponse, mappingModel,"Hello, world" );
     }
 }
