@@ -6,6 +6,7 @@ import org.keycloak.models.ProtocolMapperModel;
 import org.keycloak.models.UserSessionModel;
 import org.keycloak.protocol.oidc.mappers.*;
 import org.keycloak.provider.ProviderConfigProperty;
+import org.keycloak.representations.AccessToken;
 import org.keycloak.representations.AccessTokenResponse;
 import org.keycloak.representations.IDToken;
 
@@ -99,6 +100,12 @@ public class HelloMapper extends AbstractOIDCProtocolMapper implements OIDCAcces
     @Override
     public String getId() {
         return PROVIDER_ID;
+    }
+
+    @Override
+    public AccessToken transformAccessToken(AccessToken token, ProtocolMapperModel mappingModel, KeycloakSession session, UserSessionModel userSession, ClientSessionContext clientSessionCtx) {
+        this.setClaim((IDToken)token, mappingModel, userSession, session, clientSessionCtx);
+        return token;
     }
 
     @Override
