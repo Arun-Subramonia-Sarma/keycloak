@@ -1,4 +1,4 @@
-package com.fk.platform;
+package com.fourkites.platform;
 
 public class App {
 

@@ -1,4 +1,4 @@
-package com.fk.platform.mapper;
+package com.fourkites.platform.mapper;
 
 import org.keycloak.models.ClientSessionContext;
 import org.keycloak.models.KeycloakSession;
