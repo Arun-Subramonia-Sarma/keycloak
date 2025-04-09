@@ -37,6 +37,7 @@ public class HelloMapper extends AbstractOIDCProtocolMapper implements OIDCAcces
     private static final String INCLUDE_IN_USERINFO = "include.in.userinfo";
 
     static {
+        logger.info("Adding the provider "+PROVIDER_ID+" with the display name "+DISPLAY_TYPE);
         // Add configuration for claim name
         ProviderConfigProperty claimNameProperty = new ProviderConfigProperty();
         claimNameProperty.setName(CLAIM_NAME);
