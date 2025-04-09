@@ -104,6 +104,7 @@ public class HelloMapper extends AbstractOIDCProtocolMapper implements OIDCAcces
 
     @Override
     public AccessToken transformAccessToken(AccessToken token, ProtocolMapperModel mappingModel, KeycloakSession session, UserSessionModel userSession, ClientSessionContext clientSessionCtx) {
+
         this.setClaim((IDToken)token, mappingModel, userSession, session, clientSessionCtx);
         return token;
     }
