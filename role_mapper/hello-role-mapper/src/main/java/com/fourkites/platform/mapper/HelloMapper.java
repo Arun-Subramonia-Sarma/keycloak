@@ -106,8 +106,7 @@ public class HelloMapper extends AbstractOIDCProtocolMapper implements OIDCAcces
                             KeycloakSession keycloakSession, ClientSessionContext clientSessionCtx) {
         logger.info("Entering the class "+this.getClass().getName()+" method setClaim");
 
-//        OIDCAttributeMapperHelper.mapClaim(token, mappingModel,"Hello, world" );
-        token.getOtherClaims().put("companyRoles", "Hello, world");
+        OIDCAttributeMapperHelper.mapClaim(token, mappingModel,"Hello, world" );
     }
 
     @Override
