@@ -5,6 +5,7 @@ image:
   registry: fourkitesdevelopment.azurecr.io
   repository: fourkitesdevelopment.azurecr.io/facility/dyf/yms-keycloak-optimized
   tag: latest
+  pullPolicy: Always
 # image:
 #   tag: "26.1.4"
 command:
