@@ -1,0 +1,1 @@
+docker build -f code-centric/deployments/Docker/Dockerfile -f keycloak-optimized:v1.0 .
