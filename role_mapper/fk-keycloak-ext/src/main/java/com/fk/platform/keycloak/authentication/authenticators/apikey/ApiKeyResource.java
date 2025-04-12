@@ -38,6 +38,7 @@ public class ApiKeyResource {
     @Path("/generate")
     @Produces(MediaType.APPLICATION_JSON)
     public Response generateApiKey(@QueryParam("expiryDays") @DefaultValue("30") int expiryDays) {
+        logger.debugf("Logging using the auth %s",auth);
         if (auth == null) {
             return Response.status(Response.Status.UNAUTHORIZED).build();
         }
