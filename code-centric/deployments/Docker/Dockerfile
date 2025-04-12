@@ -1,8 +1,7 @@
 FROM quay.io/keycloak/keycloak:26.1.4
 
 # Copy JAR files and immediately verify they exist
-COPY code-centric/deployments/Docker/keycloak-custom*.jar /opt/keycloak/providers/
-COPY code-centric/deployments/Docker/hello-role-mapper*.jar /opt/keycloak/providers/
+COPY code-centric/deployments/Docker/*.jar /opt/keycloak/providers/
 RUN ls -la /opt/keycloak/providers/
 
 # Build with more verbose output
