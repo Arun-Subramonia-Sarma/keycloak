@@ -20,6 +20,16 @@ primary:
       memory: 1Gi
       cpu: 500m
 
+  initdb:
+    user: keycloak
+    scripts:
+      my_init_script.sql: |
+        CREATE SCHEMA keycloak;
+        GRANT USAGE ON SCHEMA keycloak TO keycloak;
+        GRANT CREATE ON SCHEMA keycloak TO your_apkeycloakp_user;
+        ALTER DATABASE keycloak SET search_path TO keycloak, public;
+        alter schema keycloak owner to keycloak;
+
 ## Enable metrics exporter (optional)
 metrics:
   enabled: false
