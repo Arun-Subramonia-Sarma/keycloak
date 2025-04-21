@@ -2,7 +2,6 @@ nameOverride: keycloak
 fullnameOverride: keycloak
 replicas: 1
 image:
-  registry: fourkitesdevelopment.azurecr.io
   repository: fourkitesdevelopment.azurecr.io/facility/dyf/yms-keycloak-optimized
   tag: latest
   pullPolicy: Always
@@ -53,19 +52,19 @@ database:
   # existingSecret: "my-existent-dbpass-secret"
   # existingSecretKey: "password"
   existingSecret: keycloak-secrets
-  existingSecretKey: db-password
+  existingSecretKey: local-db-password
   # E.g. dev-file, dev-mem, mariadb, mssql, mysql, oracle or postgres
   vendor: postgres
-  hostname: psql-dyf-db1-flexi-dev.postgres.database.azure.com
+  hostname: postgres-postgresql
   port: 5432
-  database: keycloak_25_0_0
+  database: keycloak
   username: keycloak
 
 extraEnv: |
   - name: KC_HEALTH_ENABLED
     value: "true"
   - name: KC_DB_SCHEMA
-    value: keycloak_26_1_4
+    value: keycloak
   - name: KC_FEATURES
     value: "admin-api,account-api,admin-fine-grained-authz"
   - name: KC_HOSTNAME_STRICT

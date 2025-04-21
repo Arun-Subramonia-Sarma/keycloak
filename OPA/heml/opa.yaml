@@ -1,0 +1,103 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: opa-policy
+data:
+  example.rego: |
+    package example
+
+    default allow = false
+
+    allow if {
+      input.method == "GET"
+      input.path[0] == "public"
+    }
+
+    allow if {
+      input.method == "GET"
+      input.path[0] == "users"
+      input.path[1] == input.user.id
+    }
+
+    allow if {
+      input.user.role == "admin"
+    }
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: opa
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: opa
+  template:
+    metadata:
+      labels:
+        app: opa
+    spec:
+      containers:
+        - name: opa
+          image: openpolicyagent/opa:latest
+          args:
+            - "run"
+            - "--server"
+            - "--addr=:8181"
+            - "--ignore=.*"  # Ignore hidden files
+            - "--watch"      # Watch for policy changes
+            - "/policies"    # Load policies from this directory
+          ports:
+            - containerPort: 8181
+              name: http
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: 8181
+            initialDelaySeconds: 15
+            periodSeconds: 10
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: 8181
+            initialDelaySeconds: 15
+            periodSeconds: 10
+          volumeMounts:
+            - name: opa-policy
+              mountPath: /policies
+      volumes:
+        - name: opa-policy
+          configMap:
+            name: opa-policy
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: opa-config
+data:
+  config.yaml: |
+    decision_logs:
+      console: true
+    # plugins:
+    #   discovery:
+    #     name: discovery
+    services:
+      - name: default
+        url: http://localhost:8181
+    bundles:
+      policy:
+        service: default
+        resource: /policies
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: opa
+spec:
+  selector:
+    app: opa
+  ports:
+  - name: http
+    port: 8181
+    targetPort: 8181
+  type: ClusterIP

@@ -1,0 +1,29 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  annotations:
+    appgw.ingress.kubernetes.io/appgw-ssl-certificate: wildcard-fourkites-ssl
+    appgw.ingress.kubernetes.io/health-probe-interval: "15"
+    appgw.ingress.kubernetes.io/health-probe-path: /expkeycloak/realms/master
+    appgw.ingress.kubernetes.io/health-probe-port: "8080"
+    appgw.ingress.kubernetes.io/health-probe-timeout: "10"
+  labels:
+    app: keycloak
+    app.kubernetes.io/instance: yms-keycloak-dev-azure
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: keycloak
+    app.kubernetes.io/version: 1.20.3
+  name: keycloak-fk-ingress
+spec:
+  ingressClassName: azure-application-gateway
+  rules:
+  - host: dy-dev.fourkites.com
+    http:
+      paths:
+      - backend:
+          service:
+            name: keycloak-http
+            port:
+              number: 8080
+        path: /expkeycloak/*
+        pathType: ImplementationSpecific
