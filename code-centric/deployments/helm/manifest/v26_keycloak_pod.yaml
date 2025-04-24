@@ -1,0 +1,260 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  annotations:
+    checksum/config-startup: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+    checksum/secrets: 44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a
+  creationTimestamp: "2025-04-24T09:57:55Z"
+  generateName: keycloak-
+  labels:
+    app.kubernetes.io/instance: keycloak
+    app.kubernetes.io/name: keycloak
+    apps.kubernetes.io/pod-index: "0"
+    controller-revision-hash: keycloak-59d988f8f6
+    statefulset.kubernetes.io/pod-name: keycloak-0
+  name: keycloak-0
+  namespace: yms-keycloak-26-1-4-code-new
+  ownerReferences:
+  - apiVersion: apps/v1
+    blockOwnerDeletion: true
+    controller: true
+    kind: StatefulSet
+    name: keycloak
+    uid: 34a1349c-b03b-4865-bfd2-c7a1486c7fdc
+  resourceVersion: "443893592"
+  uid: ed5143f5-557d-4ae9-8a25-2789c3555084
+spec:
+  affinity:
+    podAntiAffinity:
+      preferredDuringSchedulingIgnoredDuringExecution:
+      - podAffinityTerm:
+          labelSelector:
+            matchExpressions:
+            - key: app.kubernetes.io/component
+              operator: NotIn
+              values:
+              - test
+            matchLabels:
+              app.kubernetes.io/instance: keycloak
+              app.kubernetes.io/name: keycloak
+          topologyKey: topology.kubernetes.io/zone
+        weight: 100
+      requiredDuringSchedulingIgnoredDuringExecution:
+      - labelSelector:
+          matchExpressions:
+          - key: app.kubernetes.io/component
+            operator: NotIn
+            values:
+            - test
+          matchLabels:
+            app.kubernetes.io/instance: keycloak
+            app.kubernetes.io/name: keycloak
+        topologyKey: kubernetes.io/hostname
+  containers:
+  - command:
+    - /opt/keycloak/bin/kc.sh
+    - --verbose
+    - start
+    - --log-level=INFO,com.fk:trace
+    - --optimized
+    env:
+    - name: KC_HTTP_RELATIVE_PATH
+      value: /expkeycloak
+    - name: KC_CACHE
+      value: ispn
+    - name: KC_CACHE_STACK
+      value: kubernetes
+    - name: KC_PROXY_HEADERS
+      value: forwarded
+    - name: KC_HTTP_ENABLED
+      value: "true"
+    - name: KC_DB
+      value: postgres
+    - name: KC_DB_URL_HOST
+      value: psql-dyf-db1-flexi-dev.postgres.database.azure.com
+    - name: KC_DB_URL_PORT
+      value: "5432"
+    - name: KC_DB_URL_DATABASE
+      value: keycloak_25_0_0
+    - name: KC_DB_USERNAME
+      value: keycloak
+    - name: KC_DB_PASSWORD
+      valueFrom:
+        secretKeyRef:
+          key: db-password
+          name: keycloak-secrets
+    - name: KC_METRICS_ENABLED
+      value: "true"
+    - name: KC_HEALTH_ENABLED
+      value: "true"
+    - name: KC_HEALTH_ENABLED
+      value: "true"
+    - name: KC_DB_SCHEMA
+      value: keycloak_26_1_4
+    - name: KC_FEATURES
+      value: admin-api,account-api,admin-fine-grained-authz
+    - name: KC_HOSTNAME_STRICT
+      value: "false"
+    - name: KUBERNETES_NAMESPACE
+      valueFrom:
+        fieldRef:
+          apiVersion: v1
+          fieldPath: metadata.namespace
+    - name: JGROUPS_DISCOVERY_PROTOCOL
+      value: dns.DNS_PING
+    - name: JGROUPS_DISCOVERY_PROPERTIES
+      value: dns_query=keycloak-headless.$(KUBERNETES_NAMESPACE).svc.cluster.local
+    - name: CACHE_OWNERS_COUNT
+      value: "2"
+    - name: CACHE_OWNERS_AUTH_SESSIONS_COUNT
+      value: "2"
+    - name: KC_CACHE
+      value: ispn
+    - name: KC_CACHE_STACK
+      value: kubernetes
+    - name: JAVA_OPTS_APPEND
+      value: -Djgroups.dns.query=keycloak-headless
+    - name: KC_PROXY_ADDRESS_FORWARDING
+      value: "true"
+    - name: KEYCLOAK_FRONTEND_URL
+      value: https://dy-dev.fourkites.com
+    - name: FRONTEND_URL
+      value: https://dy-dev.fourkites.com
+    image: fourkitesdevelopment.azurecr.io/facility/dyf/yms-keycloak-optimized:latest
+    imagePullPolicy: Always
+    livenessProbe:
+      failureThreshold: 3
+      httpGet:
+        path: /expkeycloak/health/live
+        port: http-internal
+        scheme: HTTP
+      periodSeconds: 10
+      successThreshold: 1
+      timeoutSeconds: 5
+    name: keycloak
+    ports:
+    - containerPort: 8080
+      name: http
+      protocol: TCP
+    - containerPort: 9000
+      name: http-internal
+      protocol: TCP
+    - containerPort: 8443
+      name: https
+      protocol: TCP
+    readinessProbe:
+      failureThreshold: 3
+      httpGet:
+        path: /expkeycloak/health/ready
+        port: http-internal
+        scheme: HTTP
+      initialDelaySeconds: 10
+      periodSeconds: 10
+      successThreshold: 1
+      timeoutSeconds: 1
+    resources: {}
+    securityContext:
+      runAsNonRoot: true
+      runAsUser: 1000
+    startupProbe:
+      failureThreshold: 60
+      httpGet:
+        path: /expkeycloak/health
+        port: http-internal
+        scheme: HTTP
+      initialDelaySeconds: 15
+      periodSeconds: 5
+      successThreshold: 1
+      timeoutSeconds: 1
+    terminationMessagePath: /dev/termination-log
+    terminationMessagePolicy: File
+    volumeMounts:
+    - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
+      name: kube-api-access-glm7t
+      readOnly: true
+  dnsPolicy: ClusterFirst
+  enableServiceLinks: true
+  hostname: keycloak-0
+  nodeName: aks-aksdefault-30145466-vmss00007r
+  preemptionPolicy: PreemptLowerPriority
+  priority: 7500
+  priorityClassName: medium-priority
+  restartPolicy: Always
+  schedulerName: default-scheduler
+  securityContext:
+    fsGroup: 1000
+  serviceAccount: keycloak
+  serviceAccountName: keycloak
+  subdomain: keycloak-headless
+  terminationGracePeriodSeconds: 60
+  tolerations:
+  - effect: NoExecute
+    key: node.kubernetes.io/not-ready
+    operator: Exists
+    tolerationSeconds: 300
+  - effect: NoExecute
+    key: node.kubernetes.io/unreachable
+    operator: Exists
+    tolerationSeconds: 300
+  volumes:
+  - name: kube-api-access-glm7t
+    projected:
+      defaultMode: 420
+      sources:
+      - serviceAccountToken:
+          expirationSeconds: 3607
+          path: token
+      - configMap:
+          items:
+          - key: ca.crt
+            path: ca.crt
+          name: kube-root-ca.crt
+      - downwardAPI:
+          items:
+          - fieldRef:
+              apiVersion: v1
+              fieldPath: metadata.namespace
+            path: namespace
+status:
+  conditions:
+  - lastProbeTime: null
+    lastTransitionTime: "2025-04-24T09:57:56Z"
+    status: "True"
+    type: PodReadyToStartContainers
+  - lastProbeTime: null
+    lastTransitionTime: "2025-04-24T09:57:55Z"
+    status: "True"
+    type: Initialized
+  - lastProbeTime: null
+    lastTransitionTime: "2025-04-24T09:58:25Z"
+    status: "True"
+    type: Ready
+  - lastProbeTime: null
+    lastTransitionTime: "2025-04-24T09:58:25Z"
+    status: "True"
+    type: ContainersReady
+  - lastProbeTime: null
+    lastTransitionTime: "2025-04-24T09:57:55Z"
+    status: "True"
+    type: PodScheduled
+  containerStatuses:
+  - containerID: containerd://b563a2ec7d4203e6798871055465931bc2db488d82a684ccce13f73b73811c73
+    image: fourkitesdevelopment.azurecr.io/facility/dyf/yms-keycloak-optimized:latest
+    imageID: fourkitesdevelopment.azurecr.io/facility/dyf/yms-keycloak-optimized@sha256:2c7ab995dc51aa8525ed670328f968565ab7444a9e4e9c14dbc0befba4c45558
+    lastState: {}
+    name: keycloak
+    ready: true
+    restartCount: 0
+    started: true
+    state:
+      running:
+        startedAt: "2025-04-24T09:57:56Z"
+  hostIP: 10.77.1.158
+  hostIPs:
+  - ip: 10.77.1.158
+  phase: Running
+  podIP: 10.77.1.178
+  podIPs:
+  - ip: 10.77.1.178
+  qosClass: BestEffort
+  startTime: "2025-04-24T09:57:55Z"

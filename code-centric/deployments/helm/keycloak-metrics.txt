@@ -1,0 +1,1604 @@
+# HELP vendor_jgroups_tcp_get_num_msgs_sent Number of messages sent (mcasts and ucasts sent)
+# TYPE vendor_jgroups_tcp_get_num_msgs_sent gauge
+vendor_jgroups_tcp_get_num_msgs_sent{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 172.0
+# HELP vendor_statistics_average_read_time Average number of milliseconds for a read operation on the cache
+# TYPE vendor_statistics_average_read_time gauge
+vendor_statistics_average_read_time{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_average_read_time{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_average_read_time{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_average_read_time{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_average_read_time{cache="keys",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_average_read_time{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_average_read_time{cache="authorization",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_average_read_time{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_average_read_time{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_average_read_time{cache="users",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_average_read_time{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_average_read_time{cache="realms",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+# HELP worker_pool_active The number of resources from the pool currently used
+# TYPE worker_pool_active gauge
+worker_pool_active{pool_name="vert.x-internal-blocking",pool_type="worker",} 0.0
+worker_pool_active{pool_name="vert.x-worker-thread",pool_type="worker",} 1.0
+# HELP vendor_memoryPool_G1_Old_Gen_usage_bytes Current usage of the G1 Old Gen memory pool
+# TYPE vendor_memoryPool_G1_Old_Gen_usage_bytes gauge
+vendor_memoryPool_G1_Old_Gen_usage_bytes 5.3178576E7
+# HELP base_cpu_processCpuLoad Displays the "recent cpu usage" for the Java virtual machine process.
+# TYPE base_cpu_processCpuLoad gauge
+base_cpu_processCpuLoad 0.0
+# HELP vendor_cache_container_stats_number_of_entries Cache container total number of entries currently in all caches from this cache container
+# TYPE vendor_cache_container_stats_number_of_entries gauge
+vendor_cache_container_stats_number_of_entries{cache_manager="keycloak",node="keycloak-0-61314",} 18.0
+# HELP vendor_cache_container_stats_misses Cache container total number of cache attribute misses
+# TYPE vendor_cache_container_stats_misses gauge
+vendor_cache_container_stats_misses{cache_manager="keycloak",node="keycloak-0-61314",} 23.0
+# HELP vendor_local_container_stats_memory_available The maximum amount of free memory in bytes in local JVM
+# TYPE vendor_local_container_stats_memory_available gauge
+vendor_local_container_stats_memory_available{cache_manager="keycloak",node="keycloak-0-61314",} 9.0124312E7
+# HELP jvm_buffer_count_buffers An estimate of the number of buffers in the pool
+# TYPE jvm_buffer_count_buffers gauge
+jvm_buffer_count_buffers{id="mapped - 'non-volatile memory'",} 0.0
+jvm_buffer_count_buffers{id="mapped",} 0.0
+jvm_buffer_count_buffers{id="direct",} 12.0
+# HELP vendor_statistics_read_write_ratio Read/writes ratio for the cache
+# TYPE vendor_statistics_read_write_ratio gauge
+vendor_statistics_read_write_ratio{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_read_write_ratio{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_read_write_ratio{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_read_write_ratio{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} 1.0
+vendor_statistics_read_write_ratio{cache="keys",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_read_write_ratio{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_read_write_ratio{cache="authorization",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_read_write_ratio{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_read_write_ratio{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} 1.0
+vendor_statistics_read_write_ratio{cache="users",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_read_write_ratio{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_read_write_ratio{cache="realms",cache_manager="keycloak",node="keycloak-0-61314",} 5.777777777777778
+# HELP jvm_threads_live_threads The current number of live threads including both daemon and non-daemon threads
+# TYPE jvm_threads_live_threads gauge
+jvm_threads_live_threads 33.0
+# HELP vendor_cache_container_stats_average_write_time Cache container average number of milliseconds for all write operation in this cache container
+# TYPE vendor_cache_container_stats_average_write_time gauge
+vendor_cache_container_stats_average_write_time{cache_manager="keycloak",node="keycloak-0-61314",} 58.0
+# HELP vendor_jgroups_unicast3_get_age_out_cache_size 
+# TYPE vendor_jgroups_unicast3_get_age_out_cache_size gauge
+vendor_jgroups_unicast3_get_age_out_cache_size{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP jvm_info_total JVM version info
+# TYPE jvm_info_total counter
+jvm_info_total{runtime="OpenJDK Runtime Environment",vendor="Red Hat, Inc.",version="21.0.6+7-LTS",} 1.0
+# HELP vendor_jgroups_tcp_get_num_batches_received Number of batches received (by the transport)
+# TYPE vendor_jgroups_tcp_get_num_batches_received gauge
+vendor_jgroups_tcp_get_num_batches_received{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP worker_pool_rejected_total Number of times submissions to the pool have been rejected
+# TYPE worker_pool_rejected_total counter
+worker_pool_rejected_total{pool_name="vert.x-internal-blocking",pool_type="worker",} 0.0
+worker_pool_rejected_total{pool_name="vert.x-worker-thread",pool_type="worker",} 0.0
+# HELP agroal_acquire_count_total Number of times an acquire operation succeeded.
+# TYPE agroal_acquire_count_total counter
+agroal_acquire_count_total{datasource="default",} 7.0
+# HELP base_thread_max_count Displays the peak live thread count since the Java virtual machine started or peak was reset. This includes daemon and non-daemon threads.
+# TYPE base_thread_max_count gauge
+base_thread_max_count 34.0
+# HELP agroal_flush_count_total Number of connections removed from the pool, not counting invalid / idle.
+# TYPE agroal_flush_count_total counter
+agroal_flush_count_total{datasource="default",} 0.0
+# HELP vendor_jgroups_nakack2_get_size_of_all_messages Returns the number of bytes of all messages in all retransmit buffers. To compute the size, Message.getLength() is used
+# TYPE vendor_jgroups_nakack2_get_size_of_all_messages gauge
+vendor_jgroups_nakack2_get_size_of_all_messages{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP vendor_jgroups_tcp_get_num_mcasts_sent Number of multicast messages sent
+# TYPE vendor_jgroups_tcp_get_num_mcasts_sent gauge
+vendor_jgroups_tcp_get_num_mcasts_sent{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 72.0
+# HELP jvm_classes_unloaded_classes_total The total number of classes unloaded since the Java virtual machine has started execution
+# TYPE jvm_classes_unloaded_classes_total counter
+jvm_classes_unloaded_classes_total 0.0
+# HELP vendor_jgroups_ufc_get_number_of_credit_responses_received 
+# TYPE vendor_jgroups_ufc_get_number_of_credit_responses_received gauge
+vendor_jgroups_ufc_get_number_of_credit_responses_received{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP vendor_cache_container_stats_required_minimum_number_of_nodes Required minimum number of nodes to hold current cache data
+# TYPE vendor_cache_container_stats_required_minimum_number_of_nodes gauge
+vendor_cache_container_stats_required_minimum_number_of_nodes{cache_manager="keycloak",node="keycloak-0-61314",} 1.0
+# HELP vendor_state_transfer_manager_inflight_segment_transfer_count The number of in-flight segments the local node requested from other nodes
+# TYPE vendor_state_transfer_manager_inflight_segment_transfer_count gauge
+vendor_state_transfer_manager_inflight_segment_transfer_count{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_state_transfer_manager_inflight_segment_transfer_count{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_state_transfer_manager_inflight_segment_transfer_count{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_state_transfer_manager_inflight_segment_transfer_count{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_state_transfer_manager_inflight_segment_transfer_count{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_state_transfer_manager_inflight_segment_transfer_count{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_state_transfer_manager_inflight_segment_transfer_count{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_state_transfer_manager_inflight_segment_transfer_count{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+# HELP vendor_cache_container_stats_stores Cache container total number of cache put operations
+# TYPE vendor_cache_container_stats_stores gauge
+vendor_cache_container_stats_stores{cache_manager="keycloak",node="keycloak-0-61314",} 20.0
+# HELP vendor_statistics_time_since_start Number of seconds since cache started
+# TYPE vendor_statistics_time_since_start gauge
+vendor_statistics_time_since_start{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 298.0
+vendor_statistics_time_since_start{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} 298.0
+vendor_statistics_time_since_start{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 298.0
+vendor_statistics_time_since_start{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} 298.0
+vendor_statistics_time_since_start{cache="keys",cache_manager="keycloak",node="keycloak-0-61314",} 176486.0
+vendor_statistics_time_since_start{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} 298.0
+vendor_statistics_time_since_start{cache="authorization",cache_manager="keycloak",node="keycloak-0-61314",} 176486.0
+vendor_statistics_time_since_start{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} 298.0
+vendor_statistics_time_since_start{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} 298.0
+vendor_statistics_time_since_start{cache="users",cache_manager="keycloak",node="keycloak-0-61314",} 176486.0
+vendor_statistics_time_since_start{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} 298.0
+vendor_statistics_time_since_start{cache="realms",cache_manager="keycloak",node="keycloak-0-61314",} 176486.0
+# HELP vendor_number_of_cache_configurations The total number of defined cache configurations.
+# TYPE vendor_number_of_cache_configurations gauge
+vendor_number_of_cache_configurations{cache_manager="keycloak",node="keycloak-0-61314",} 15.0
+# HELP vendor_jgroups_ufc_get_number_of_credit_requests_received 
+# TYPE vendor_jgroups_ufc_get_number_of_credit_requests_received gauge
+vendor_jgroups_ufc_get_number_of_credit_requests_received{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP vendor_jgroups_red_get_drop_rate Percentage of all messages that were dropped
+# TYPE vendor_jgroups_red_get_drop_rate gauge
+vendor_jgroups_red_get_drop_rate{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP vendor_statistics_average_write_time_nanos Average number of nanoseconds for a write operation in the cache
+# TYPE vendor_statistics_average_write_time_nanos gauge
+vendor_statistics_average_write_time_nanos{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_average_write_time_nanos{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_average_write_time_nanos{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_average_write_time_nanos{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} 1.16590519E8
+vendor_statistics_average_write_time_nanos{cache="keys",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_average_write_time_nanos{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_average_write_time_nanos{cache="authorization",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_average_write_time_nanos{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_average_write_time_nanos{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} 1813078.0
+vendor_statistics_average_write_time_nanos{cache="users",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_average_write_time_nanos{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_average_write_time_nanos{cache="realms",cache_manager="keycloak",node="keycloak-0-61314",} 925806.0
+# HELP jvm_gc_pause_seconds Time spent in GC pause
+# TYPE jvm_gc_pause_seconds summary
+jvm_gc_pause_seconds_count{action="end of minor GC",cause="Metadata GC Threshold",gc="G1 Young Generation",} 1.0
+jvm_gc_pause_seconds_sum{action="end of minor GC",cause="Metadata GC Threshold",gc="G1 Young Generation",} 0.076
+jvm_gc_pause_seconds_count{action="end of minor GC",cause="G1 Evacuation Pause",gc="G1 Young Generation",} 3.0
+jvm_gc_pause_seconds_sum{action="end of minor GC",cause="G1 Evacuation Pause",gc="G1 Young Generation",} 0.075
+# HELP jvm_gc_pause_seconds_max Time spent in GC pause
+# TYPE jvm_gc_pause_seconds_max gauge
+jvm_gc_pause_seconds_max{action="end of minor GC",cause="Metadata GC Threshold",gc="G1 Young Generation",} 0.0
+jvm_gc_pause_seconds_max{action="end of minor GC",cause="G1 Evacuation Pause",gc="G1 Young Generation",} 0.0
+# HELP vendor_jgroups_red_get_dropped_messages 
+# TYPE vendor_jgroups_red_get_dropped_messages gauge
+vendor_jgroups_red_get_dropped_messages{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP system_load_average_1m The sum of the number of runnable entities queued to available processors and the number of runnable entities running on the available processors averaged over a period of time
+# TYPE system_load_average_1m gauge
+system_load_average_1m 2.6
+# HELP vendor_jgroups_tcp_get_num_bytes_sent Total number of bytes sent (unicast + multicast bytes)
+# TYPE vendor_jgroups_tcp_get_num_bytes_sent gauge
+vendor_jgroups_tcp_get_num_bytes_sent{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 24139.0
+# HELP base_thread_totalStarted Displays the total number of started threads.
+# TYPE base_thread_totalStarted gauge
+base_thread_totalStarted 37.0
+# HELP jvm_buffer_memory_used_bytes An estimate of the memory that the Java virtual machine is using for this buffer pool
+# TYPE jvm_buffer_memory_used_bytes gauge
+jvm_buffer_memory_used_bytes{id="mapped - 'non-volatile memory'",} 0.0
+jvm_buffer_memory_used_bytes{id="mapped",} 0.0
+jvm_buffer_memory_used_bytes{id="direct",} 368721.0
+# HELP http_server_requests_seconds HTTP server request processing time
+# TYPE http_server_requests_seconds summary
+http_server_requests_seconds_count{method="GET",outcome="SUCCESS",status="200",uri="/expkeycloak/health/live",} 29.0
+http_server_requests_seconds_sum{method="GET",outcome="SUCCESS",status="200",uri="/expkeycloak/health/live",} 0.071076322
+http_server_requests_seconds_count{method="GET",outcome="CLIENT_ERROR",status="404",uri="NOT_FOUND",} 1.0
+http_server_requests_seconds_sum{method="GET",outcome="CLIENT_ERROR",status="404",uri="NOT_FOUND",} 0.753853312
+http_server_requests_seconds_count{method="GET",outcome="SUCCESS",status="200",uri="/expkeycloak/health/ready",} 30.0
+http_server_requests_seconds_sum{method="GET",outcome="SUCCESS",status="200",uri="/expkeycloak/health/ready",} 0.20443984
+http_server_requests_seconds_count{method="GET",outcome="SUCCESS",status="200",uri="/expkeycloak/health",} 1.0
+http_server_requests_seconds_sum{method="GET",outcome="SUCCESS",status="200",uri="/expkeycloak/health",} 0.092146011
+http_server_requests_seconds_count{method="GET",outcome="SUCCESS",status="200",uri="/realms/{realm}",} 40.0
+http_server_requests_seconds_sum{method="GET",outcome="SUCCESS",status="200",uri="/realms/{realm}",} 1.433843267
+# HELP http_server_requests_seconds_max HTTP server request processing time
+# TYPE http_server_requests_seconds_max gauge
+http_server_requests_seconds_max{method="GET",outcome="SUCCESS",status="200",uri="/expkeycloak/health/live",} 0.008808138
+http_server_requests_seconds_max{method="GET",outcome="CLIENT_ERROR",status="404",uri="NOT_FOUND",} 0.753853312
+http_server_requests_seconds_max{method="GET",outcome="SUCCESS",status="200",uri="/expkeycloak/health/ready",} 0.019545328
+http_server_requests_seconds_max{method="GET",outcome="SUCCESS",status="200",uri="/expkeycloak/health",} 0.0
+http_server_requests_seconds_max{method="GET",outcome="SUCCESS",status="200",uri="/realms/{realm}",} 0.005966466
+# HELP vendor_jgroups_tcp_get_num_mcast_bytes_received Number of multicast bytes received
+# TYPE vendor_jgroups_tcp_get_num_mcast_bytes_received gauge
+vendor_jgroups_tcp_get_num_mcast_bytes_received{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP vendor_cache_container_stats_average_remove_time Cache container total average number of milliseconds for all remove operation in this cache container
+# TYPE vendor_cache_container_stats_average_remove_time gauge
+vendor_cache_container_stats_average_remove_time{cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+# HELP vendor_memoryPool_CodeHeap_profiled_nmethods_usage_max_bytes Peak usage of the CodeHeap 'profiled nmethods' memory pool
+# TYPE vendor_memoryPool_CodeHeap_profiled_nmethods_usage_max_bytes gauge
+vendor_memoryPool_CodeHeap_profiled_nmethods_usage_max_bytes 2.0382976E7
+# HELP vendor_jgroups_unicast3_get_timestamper Next seqno issued by the timestamper
+# TYPE vendor_jgroups_unicast3_get_timestamper gauge
+vendor_jgroups_unicast3_get_timestamper{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP vendor_jgroups_nakack2_get_xmit_table_undelivered_msgs Total number of undelivered messages in all retransmit buffers
+# TYPE vendor_jgroups_nakack2_get_xmit_table_undelivered_msgs gauge
+vendor_jgroups_nakack2_get_xmit_table_undelivered_msgs{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP agroal_creation_time_max_milliseconds Maximum time for a connection to be created.
+# TYPE agroal_creation_time_max_milliseconds gauge
+agroal_creation_time_max_milliseconds{datasource="default",} 1256.0
+# HELP vendor_memoryPool_CodeHeap_non_profiled_nmethods_usage_bytes Current usage of the CodeHeap 'non-profiled nmethods' memory pool
+# TYPE vendor_memoryPool_CodeHeap_non_profiled_nmethods_usage_bytes gauge
+vendor_memoryPool_CodeHeap_non_profiled_nmethods_usage_bytes 5222400.0
+# HELP vendor_jgroups_tcp_get_number_of_thread_dumps 
+# TYPE vendor_jgroups_tcp_get_number_of_thread_dumps gauge
+vendor_jgroups_tcp_get_number_of_thread_dumps{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} -1.0
+# HELP vendor_jgroups_unicast3_get_xmit_table_undelivered_messages Total number of undelivered messages in all receive windows
+# TYPE vendor_jgroups_unicast3_get_xmit_table_undelivered_messages gauge
+vendor_jgroups_unicast3_get_xmit_table_undelivered_messages{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP vendor_statistics_hit_non_owner_total The number of single key read hits when this node is not an owner
+# TYPE vendor_statistics_hit_non_owner_total counter
+vendor_statistics_hit_non_owner_total{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hit_non_owner_total{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hit_non_owner_total{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hit_non_owner_total{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hit_non_owner_total{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hit_non_owner_total{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hit_non_owner_total{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hit_non_owner_total{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+# HELP netty_allocator_pooled_chunk_size  
+# TYPE netty_allocator_pooled_chunk_size gauge
+netty_allocator_pooled_chunk_size{allocator_type="PooledByteBufAllocator",id="1215546949",} 65536.0
+netty_allocator_pooled_chunk_size{allocator_type="PooledByteBufAllocator",id="1907364633",} 65536.0
+# HELP system_cpu_usage The "recent cpu usage" of the system the application is running in
+# TYPE system_cpu_usage gauge
+system_cpu_usage 1.0
+# HELP vendor_jgroups_mfc_get_number_of_credit_requests_sent 
+# TYPE vendor_jgroups_mfc_get_number_of_credit_requests_sent gauge
+vendor_jgroups_mfc_get_number_of_credit_requests_sent{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP vendor_jgroups_stable_get_stability_received 
+# TYPE vendor_jgroups_stable_get_stability_received gauge
+vendor_jgroups_stable_get_stability_received{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 62.0
+# HELP vendor_cache_container_stats_remove_misses Cache container total number of cache removals where keys were not found
+# TYPE vendor_cache_container_stats_remove_misses gauge
+vendor_cache_container_stats_remove_misses{cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+# HELP http_server_bytes_read Number of bytes received by the server
+# TYPE http_server_bytes_read summary
+http_server_bytes_read_count 0.0
+http_server_bytes_read_sum 0.0
+# HELP http_server_bytes_read_max Number of bytes received by the server
+# TYPE http_server_bytes_read_max gauge
+http_server_bytes_read_max 0.0
+# HELP vendor_lock_manager_number_of_locks_available The number of exclusive locks that are available.
+# TYPE vendor_lock_manager_number_of_locks_available gauge
+vendor_lock_manager_number_of_locks_available{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_lock_manager_number_of_locks_available{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_lock_manager_number_of_locks_available{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_lock_manager_number_of_locks_available{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_lock_manager_number_of_locks_available{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_lock_manager_number_of_locks_available{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_lock_manager_number_of_locks_available{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_lock_manager_number_of_locks_available{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+# HELP vendor_memoryPool_G1_Eden_Space_usage_bytes Current usage of the G1 Eden Space memory pool
+# TYPE vendor_memoryPool_G1_Eden_Space_usage_bytes gauge
+vendor_memoryPool_G1_Eden_Space_usage_bytes 4.6137344E7
+# HELP vendor_statistics_hit_backup_owner_total The number of single key read hits when this node is the backup owner
+# TYPE vendor_statistics_hit_backup_owner_total counter
+vendor_statistics_hit_backup_owner_total{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hit_backup_owner_total{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hit_backup_owner_total{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hit_backup_owner_total{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hit_backup_owner_total{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hit_backup_owner_total{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hit_backup_owner_total{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hit_backup_owner_total{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+# HELP base_memory_initHeap_bytes Displays the initial amount of allocated heap memory in bytes.
+# TYPE base_memory_initHeap_bytes gauge
+base_memory_initHeap_bytes 4.164943872E9
+# HELP vendor_jgroups_tcp_get_num_mcast_msgs_received 
+# TYPE vendor_jgroups_tcp_get_num_mcast_msgs_received gauge
+vendor_jgroups_tcp_get_num_mcast_msgs_received{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP vendor_statistics_remove_miss_backup_owner_total The number of single key remove misses when this node is the backup owner
+# TYPE vendor_statistics_remove_miss_backup_owner_total counter
+vendor_statistics_remove_miss_backup_owner_total{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_miss_backup_owner_total{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_miss_backup_owner_total{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_miss_backup_owner_total{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_miss_backup_owner_total{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_miss_backup_owner_total{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_miss_backup_owner_total{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_miss_backup_owner_total{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+# HELP vendor_cache_container_stats_remove_hits Cache container total number of cache removal hits
+# TYPE vendor_cache_container_stats_remove_hits gauge
+vendor_cache_container_stats_remove_hits{cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+# HELP vendor_jgroups_tcp_get_num_timer_tasks Number of timer tasks queued up for execution
+# TYPE vendor_jgroups_tcp_get_num_timer_tasks gauge
+vendor_jgroups_tcp_get_num_timer_tasks{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 7.0
+# HELP vendor_statistics_remove_hit_non_owner_total The number of single key remove hits when this node is not an owner
+# TYPE vendor_statistics_remove_hit_non_owner_total counter
+vendor_statistics_remove_hit_non_owner_total{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_hit_non_owner_total{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_hit_non_owner_total{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_hit_non_owner_total{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_hit_non_owner_total{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_hit_non_owner_total{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_hit_non_owner_total{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_hit_non_owner_total{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+# HELP base_memory_usedHeap_bytes Displays the amount of used memory.
+# TYPE base_memory_usedHeap_bytes gauge
+base_memory_usedHeap_bytes 1.02294192E8
+# HELP vendor_jgroups_tcp_get_num_ucast_msgs_received 
+# TYPE vendor_jgroups_tcp_get_num_ucast_msgs_received gauge
+vendor_jgroups_tcp_get_num_ucast_msgs_received{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP base_memory_committedHeap_bytes Displays the amount of memory that is committed for the Java virtual machine to use.
+# TYPE base_memory_committedHeap_bytes gauge
+base_memory_committedHeap_bytes 1.97132288E8
+# HELP vendor_jgroups_tcp_get_num_ucast_msgs_sent 
+# TYPE vendor_jgroups_tcp_get_num_ucast_msgs_sent gauge
+vendor_jgroups_tcp_get_num_ucast_msgs_sent{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 100.0
+# HELP vendor_jgroups_stable_get_stability_sent 
+# TYPE vendor_jgroups_stable_get_stability_sent gauge
+vendor_jgroups_stable_get_stability_sent{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 62.0
+# HELP system_cpu_count The number of processors available to the Java virtual machine
+# TYPE system_cpu_count gauge
+system_cpu_count 2.0
+# HELP netty_allocator_pooled_arenas  
+# TYPE netty_allocator_pooled_arenas gauge
+netty_allocator_pooled_arenas{allocator_type="PooledByteBufAllocator",id="1215546949",memory_type="direct",} 4.0
+netty_allocator_pooled_arenas{allocator_type="PooledByteBufAllocator",id="1907364633",memory_type="heap",} 4.0
+netty_allocator_pooled_arenas{allocator_type="PooledByteBufAllocator",id="1907364633",memory_type="direct",} 4.0
+netty_allocator_pooled_arenas{allocator_type="PooledByteBufAllocator",id="1215546949",memory_type="heap",} 4.0
+# HELP vendor_statistics_remove_miss_primary_owner_total The number of single key remove misses when this node is the primary owner
+# TYPE vendor_statistics_remove_miss_primary_owner_total counter
+vendor_statistics_remove_miss_primary_owner_total{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_miss_primary_owner_total{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_miss_primary_owner_total{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_miss_primary_owner_total{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_miss_primary_owner_total{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_miss_primary_owner_total{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_miss_primary_owner_total{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_miss_primary_owner_total{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+# HELP vendor_statistics_remove_hit_primary_owner_total The number of single key remove hits when this node is the primary owner
+# TYPE vendor_statistics_remove_hit_primary_owner_total counter
+vendor_statistics_remove_hit_primary_owner_total{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_hit_primary_owner_total{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_hit_primary_owner_total{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_hit_primary_owner_total{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_hit_primary_owner_total{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_hit_primary_owner_total{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_hit_primary_owner_total{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_hit_primary_owner_total{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+# HELP vendor_cache_container_stats_current_number_of_entries_in_memory Cache container total number of entries currently in-memory for all caches in this cache container
+# TYPE vendor_cache_container_stats_current_number_of_entries_in_memory gauge
+vendor_cache_container_stats_current_number_of_entries_in_memory{cache_manager="keycloak",node="keycloak-0-61314",} 18.0
+# HELP base_memory_usedNonHeap_bytes Displays the amount of used memory.
+# TYPE base_memory_usedNonHeap_bytes gauge
+base_memory_usedNonHeap_bytes 1.6545744E8
+# HELP base_gc_total Displays the total number of collections that have occurred. This attribute lists -1 if the collection count is undefined for this collector.
+# TYPE base_gc_total counter
+base_gc_total{name="G1 Young Generation",} 5.0
+base_gc_total{name="G1 Old Generation",} 0.0
+base_gc_total{name="G1 Concurrent GC",} 2.0
+# HELP vendor_jgroups_nakack2_get_num_messages_received Number of messages received
+# TYPE vendor_jgroups_nakack2_get_num_messages_received gauge
+vendor_jgroups_nakack2_get_num_messages_received{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP vendor_statistics_average_remove_time Average number of milliseconds for a remove operation in the cache
+# TYPE vendor_statistics_average_remove_time gauge
+vendor_statistics_average_remove_time{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_average_remove_time{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_average_remove_time{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_average_remove_time{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_average_remove_time{cache="keys",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_average_remove_time{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_average_remove_time{cache="authorization",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_average_remove_time{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_average_remove_time{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_average_remove_time{cache="users",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_average_remove_time{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_average_remove_time{cache="realms",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+# HELP jvm_memory_committed_bytes The amount of memory in bytes that is committed for the Java virtual machine to use
+# TYPE jvm_memory_committed_bytes gauge
+jvm_memory_committed_bytes{area="nonheap",id="CodeHeap 'profiled nmethods'",} 2.0447232E7
+jvm_memory_committed_bytes{area="heap",id="G1 Survivor Space",} 4194304.0
+jvm_memory_committed_bytes{area="heap",id="G1 Old Gen",} 9.6468992E7
+jvm_memory_committed_bytes{area="nonheap",id="Metaspace",} 1.2288E8
+jvm_memory_committed_bytes{area="nonheap",id="CodeHeap 'non-nmethods'",} 2555904.0
+jvm_memory_committed_bytes{area="heap",id="G1 Eden Space",} 9.6468992E7
+jvm_memory_committed_bytes{area="nonheap",id="Compressed Class Space",} 1.5794176E7
+jvm_memory_committed_bytes{area="nonheap",id="CodeHeap 'non-profiled nmethods'",} 5242880.0
+# HELP vendor_local_container_stats_memory_max The maximum amount of memory in local JVM will attempt to utilise in bytes
+# TYPE vendor_local_container_stats_memory_max gauge
+vendor_local_container_stats_memory_max{cache_manager="keycloak",node="keycloak-0-61314",} 5.83008256E9
+# HELP vendor_jgroups_frag4_get_number_of_received_fragments Number of received fragments
+# TYPE vendor_jgroups_frag4_get_number_of_received_fragments gauge
+vendor_jgroups_frag4_get_number_of_received_fragments{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP vendor_jgroups_tcp_get_num_mcast_msgs_sent 
+# TYPE vendor_jgroups_tcp_get_num_mcast_msgs_sent gauge
+vendor_jgroups_tcp_get_num_mcast_msgs_sent{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 72.0
+# HELP process_files_max_files The maximum file descriptor count
+# TYPE process_files_max_files gauge
+process_files_max_files 1048576.0
+# HELP vendor_jgroups_ufc_get_number_of_blockings Number of times flow control blocks sender
+# TYPE vendor_jgroups_ufc_get_number_of_blockings gauge
+vendor_jgroups_ufc_get_number_of_blockings{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP vendor_statistics_hit_times_seconds The read hits times
+# TYPE vendor_statistics_hit_times_seconds summary
+vendor_statistics_hit_times_seconds_count{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hit_times_seconds_sum{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hit_times_seconds_count{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hit_times_seconds_sum{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hit_times_seconds_count{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hit_times_seconds_sum{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hit_times_seconds_count{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hit_times_seconds_sum{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hit_times_seconds_count{cache="keys",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hit_times_seconds_sum{cache="keys",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hit_times_seconds_count{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hit_times_seconds_sum{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hit_times_seconds_count{cache="authorization",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hit_times_seconds_sum{cache="authorization",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hit_times_seconds_count{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hit_times_seconds_sum{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hit_times_seconds_count{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hit_times_seconds_sum{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hit_times_seconds_count{cache="users",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hit_times_seconds_sum{cache="users",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hit_times_seconds_count{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hit_times_seconds_sum{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hit_times_seconds_count{cache="realms",cache_manager="keycloak",node="keycloak-0-61314",} 83.0
+vendor_statistics_hit_times_seconds_sum{cache="realms",cache_manager="keycloak",node="keycloak-0-61314",} 0.002134868
+# HELP vendor_jgroups_red_get_total_messages 
+# TYPE vendor_jgroups_red_get_total_messages gauge
+vendor_jgroups_red_get_total_messages{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 109.0
+# HELP netty_allocator_pooled_cache_size  
+# TYPE netty_allocator_pooled_cache_size gauge
+netty_allocator_pooled_cache_size{allocator_type="PooledByteBufAllocator",cache_type="normal",id="1215546949",} 64.0
+netty_allocator_pooled_cache_size{allocator_type="PooledByteBufAllocator",cache_type="small",id="1907364633",} 256.0
+netty_allocator_pooled_cache_size{allocator_type="PooledByteBufAllocator",cache_type="small",id="1215546949",} 256.0
+netty_allocator_pooled_cache_size{allocator_type="PooledByteBufAllocator",cache_type="normal",id="1907364633",} 64.0
+# HELP agroal_leak_detection_count_total Number of times a leak was detected. A single connection can be detected multiple times.
+# TYPE agroal_leak_detection_count_total counter
+agroal_leak_detection_count_total{datasource="default",} 0.0
+# HELP vendor_jgroups_tcp_get_num_ucasts_sent Number of unicast messages sent
+# TYPE vendor_jgroups_tcp_get_num_ucasts_sent gauge
+vendor_jgroups_tcp_get_num_ucasts_sent{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 100.0
+# HELP agroal_destroy_count_total Number of destroyed connections.
+# TYPE agroal_destroy_count_total counter
+agroal_destroy_count_total{datasource="default",} 0.0
+# HELP vendor_statistics_store_non_owner_total The number of single key stores when this node is not an owner
+# TYPE vendor_statistics_store_non_owner_total counter
+vendor_statistics_store_non_owner_total{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_store_non_owner_total{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_store_non_owner_total{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_store_non_owner_total{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_store_non_owner_total{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_store_non_owner_total{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_store_non_owner_total{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_store_non_owner_total{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+# HELP vendor_memoryPool_G1_Eden_Space_usage_max_bytes Peak usage of the G1 Eden Space memory pool
+# TYPE vendor_memoryPool_G1_Eden_Space_usage_max_bytes gauge
+vendor_memoryPool_G1_Eden_Space_usage_max_bytes 2.05520896E8
+# HELP process_uptime_seconds The uptime of the Java virtual machine
+# TYPE process_uptime_seconds gauge
+process_uptime_seconds 312.248
+# HELP vendor_jgroups_unicast3_get_num_acks_sent Number of acks sent
+# TYPE vendor_jgroups_unicast3_get_num_acks_sent gauge
+vendor_jgroups_unicast3_get_num_acks_sent{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP vendor_jgroups_tcp_get_thread_pool_size_active Current number of active threads in the thread pool
+# TYPE vendor_jgroups_tcp_get_thread_pool_size_active gauge
+vendor_jgroups_tcp_get_thread_pool_size_active{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP vendor_jgroups_ufc_get_average_time_blocked Average time blocked (in ms) in flow control when trying to send a message
+# TYPE vendor_jgroups_ufc_get_average_time_blocked gauge
+vendor_jgroups_ufc_get_average_time_blocked{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP vendor_memoryPool_G1_Survivor_Space_usage_bytes Current usage of the G1 Survivor Space memory pool
+# TYPE vendor_memoryPool_G1_Survivor_Space_usage_bytes gauge
+vendor_memoryPool_G1_Survivor_Space_usage_bytes 2978272.0
+# HELP vendor_jgroups_ufc_get_number_of_credit_responses_sent 
+# TYPE vendor_jgroups_ufc_get_number_of_credit_responses_sent gauge
+vendor_jgroups_ufc_get_number_of_credit_responses_sent{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP vendor_lock_manager_number_of_locks_held The number of exclusive locks that are held.
+# TYPE vendor_lock_manager_number_of_locks_held gauge
+vendor_lock_manager_number_of_locks_held{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_lock_manager_number_of_locks_held{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_lock_manager_number_of_locks_held{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_lock_manager_number_of_locks_held{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_lock_manager_number_of_locks_held{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_lock_manager_number_of_locks_held{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_lock_manager_number_of_locks_held{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_lock_manager_number_of_locks_held{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+# HELP base_thread_daemon_count Displays the current number of live daemon threads.
+# TYPE base_thread_daemon_count gauge
+base_thread_daemon_count 26.0
+# HELP vendor_jgroups_merge3_get_views Number of cached ViewIds
+# TYPE vendor_jgroups_merge3_get_views gauge
+vendor_jgroups_merge3_get_views{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP vendor_cache_container_health_number_of_cpus Number of CPUs in the host
+# TYPE vendor_cache_container_health_number_of_cpus gauge
+vendor_cache_container_health_number_of_cpus{cache_manager="keycloak",node="keycloak-0-61314",} 2.0
+# HELP vendor_jgroups_mfc_get_number_of_credit_requests_received 
+# TYPE vendor_jgroups_mfc_get_number_of_credit_requests_received gauge
+vendor_jgroups_mfc_get_number_of_credit_requests_received{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP process_files_open_files The open file descriptor count
+# TYPE process_files_open_files gauge
+process_files_open_files 354.0
+# HELP http_server_bytes_written_max Number of bytes sent by the server
+# TYPE http_server_bytes_written_max gauge
+http_server_bytes_written_max 2984.0
+# HELP http_server_bytes_written Number of bytes sent by the server
+# TYPE http_server_bytes_written summary
+http_server_bytes_written_count 101.0
+http_server_bytes_written_sum 34413.0
+# HELP agroal_blocking_time_total_milliseconds Total time applications waited to acquire a connection.
+# TYPE agroal_blocking_time_total_milliseconds gauge
+agroal_blocking_time_total_milliseconds{datasource="default",} 1317.0
+# HELP process_cpu_usage The "recent cpu usage" for the Java Virtual Machine process
+# TYPE process_cpu_usage gauge
+process_cpu_usage 0.39999999999999997
+# HELP vendor_jgroups_frag4_get_number_of_sent_fragments Number of sent fragments
+# TYPE vendor_jgroups_frag4_get_number_of_sent_fragments gauge
+vendor_jgroups_frag4_get_number_of_sent_fragments{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP agroal_available_count Number of idle connections in the pool, available to be acquired.
+# TYPE agroal_available_count gauge
+agroal_available_count{datasource="default",} 2.0
+# HELP vendor_cache_container_stats_time_since_reset Number of seconds since the cache container statistics were last reset
+# TYPE vendor_cache_container_stats_time_since_reset gauge
+vendor_cache_container_stats_time_since_reset{cache_manager="keycloak",node="keycloak-0-61314",} 298.0
+# HELP vendor_statistics_store_primary_owner_total The number of single key stores when this node is the primary owner
+# TYPE vendor_statistics_store_primary_owner_total counter
+vendor_statistics_store_primary_owner_total{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_store_primary_owner_total{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_store_primary_owner_total{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_store_primary_owner_total{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} 1.0
+vendor_statistics_store_primary_owner_total{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_store_primary_owner_total{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} 1.0
+vendor_statistics_store_primary_owner_total{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_store_primary_owner_total{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+# HELP vendor_statistics_store_times_seconds The stores times
+# TYPE vendor_statistics_store_times_seconds summary
+vendor_statistics_store_times_seconds_count{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_store_times_seconds_sum{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_store_times_seconds_count{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_store_times_seconds_sum{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_store_times_seconds_count{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_store_times_seconds_sum{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_store_times_seconds_count{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} 1.0
+vendor_statistics_store_times_seconds_sum{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} 0.116590519
+vendor_statistics_store_times_seconds_count{cache="keys",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_store_times_seconds_sum{cache="keys",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_store_times_seconds_count{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_store_times_seconds_sum{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_store_times_seconds_count{cache="authorization",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_store_times_seconds_sum{cache="authorization",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_store_times_seconds_count{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_store_times_seconds_sum{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_store_times_seconds_count{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} 1.0
+vendor_statistics_store_times_seconds_sum{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} 0.001813078
+vendor_statistics_store_times_seconds_count{cache="users",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_store_times_seconds_sum{cache="users",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_store_times_seconds_count{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_store_times_seconds_sum{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_store_times_seconds_count{cache="realms",cache_manager="keycloak",node="keycloak-0-61314",} 18.0
+vendor_statistics_store_times_seconds_sum{cache="realms",cache_manager="keycloak",node="keycloak-0-61314",} 0.016664517
+# HELP vendor_rpc_manager_number_xsite_requests Returns the number of sync cross-site requests
+# TYPE vendor_rpc_manager_number_xsite_requests gauge
+vendor_rpc_manager_number_xsite_requests{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_rpc_manager_number_xsite_requests{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_rpc_manager_number_xsite_requests{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_rpc_manager_number_xsite_requests{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_rpc_manager_number_xsite_requests{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_rpc_manager_number_xsite_requests{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_rpc_manager_number_xsite_requests{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_rpc_manager_number_xsite_requests{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+# HELP vendor_configuration_eviction_size Gets the eviction size for the cache
+# TYPE vendor_configuration_eviction_size gauge
+vendor_configuration_eviction_size{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 10000.0
+vendor_configuration_eviction_size{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} -1.0
+vendor_configuration_eviction_size{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} 10000.0
+vendor_configuration_eviction_size{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} -1.0
+vendor_configuration_eviction_size{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 10000.0
+vendor_configuration_eviction_size{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} -1.0
+vendor_configuration_eviction_size{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} -1.0
+vendor_configuration_eviction_size{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} 10000.0
+# HELP base_cpu_availableProcessors Displays the number of processors available to the Java virtual machine. This value may change during a particular invocation of the virtual machine.
+# TYPE base_cpu_availableProcessors gauge
+base_cpu_availableProcessors 2.0
+# HELP vendor_jgroups_nakack2_get_xmit_table_missing_messages Total number of missing (= not received) messages in all retransmit buffers
+# TYPE vendor_jgroups_nakack2_get_xmit_table_missing_messages gauge
+vendor_jgroups_nakack2_get_xmit_table_missing_messages{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP vendor_statistics_miss_times_seconds The read misses times
+# TYPE vendor_statistics_miss_times_seconds summary
+vendor_statistics_miss_times_seconds_count{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_miss_times_seconds_sum{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_miss_times_seconds_count{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_miss_times_seconds_sum{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_miss_times_seconds_count{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_miss_times_seconds_sum{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_miss_times_seconds_count{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} 1.0
+vendor_statistics_miss_times_seconds_sum{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} 3.34415E-4
+vendor_statistics_miss_times_seconds_count{cache="keys",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_miss_times_seconds_sum{cache="keys",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_miss_times_seconds_count{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_miss_times_seconds_sum{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_miss_times_seconds_count{cache="authorization",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_miss_times_seconds_sum{cache="authorization",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_miss_times_seconds_count{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_miss_times_seconds_sum{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_miss_times_seconds_count{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} 1.0
+vendor_statistics_miss_times_seconds_sum{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} 5.97825E-4
+vendor_statistics_miss_times_seconds_count{cache="users",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_miss_times_seconds_sum{cache="users",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_miss_times_seconds_count{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_miss_times_seconds_sum{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_miss_times_seconds_count{cache="realms",cache_manager="keycloak",node="keycloak-0-61314",} 21.0
+vendor_statistics_miss_times_seconds_sum{cache="realms",cache_manager="keycloak",node="keycloak-0-61314",} 3.61315E-4
+# HELP vendor_memoryPool_CodeHeap_non_nmethods_usage_bytes Current usage of the CodeHeap 'non-nmethods' memory pool
+# TYPE vendor_memoryPool_CodeHeap_non_nmethods_usage_bytes gauge
+vendor_memoryPool_CodeHeap_non_nmethods_usage_bytes 2306688.0
+# HELP vendor_jgroups_fd_sock2_get_actual_bind_port Actual port the server is listening on
+# TYPE vendor_jgroups_fd_sock2_get_actual_bind_port gauge
+vendor_jgroups_fd_sock2_get_actual_bind_port{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 57800.0
+# HELP vendor_cache_container_stats_off_heap_memory_used Amount in bytes of off-heap memory used by this cache container
+# TYPE vendor_cache_container_stats_off_heap_memory_used gauge
+vendor_cache_container_stats_off_heap_memory_used{cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+# HELP vendor_statistics_miss_backup_owner_total The number of single key read misses when this node is the backup owner
+# TYPE vendor_statistics_miss_backup_owner_total counter
+vendor_statistics_miss_backup_owner_total{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_miss_backup_owner_total{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_miss_backup_owner_total{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_miss_backup_owner_total{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_miss_backup_owner_total{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_miss_backup_owner_total{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_miss_backup_owner_total{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_miss_backup_owner_total{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+# HELP vendor_cache_container_stats_data_memory_used Amount in bytes of memory used in a given cache container for entries with eviction
+# TYPE vendor_cache_container_stats_data_memory_used gauge
+vendor_cache_container_stats_data_memory_used{cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+# HELP vendor_rpc_manager_minimum_xsite_replication_time Returns the minimum replication time, in milliseconds, for a cross-site replication request
+# TYPE vendor_rpc_manager_minimum_xsite_replication_time gauge
+vendor_rpc_manager_minimum_xsite_replication_time{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} -1.0
+vendor_rpc_manager_minimum_xsite_replication_time{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} -1.0
+vendor_rpc_manager_minimum_xsite_replication_time{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} -1.0
+vendor_rpc_manager_minimum_xsite_replication_time{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} -1.0
+vendor_rpc_manager_minimum_xsite_replication_time{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} -1.0
+vendor_rpc_manager_minimum_xsite_replication_time{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} -1.0
+vendor_rpc_manager_minimum_xsite_replication_time{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} -1.0
+vendor_rpc_manager_minimum_xsite_replication_time{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} -1.0
+# HELP vendor_cache_container_health_number_of_nodes Total nodes in the cluster
+# TYPE vendor_cache_container_health_number_of_nodes gauge
+vendor_cache_container_health_number_of_nodes{cache_manager="keycloak",node="keycloak-0-61314",} 1.0
+# HELP jvm_threads_peak_threads The peak live thread count since the Java virtual machine started or peak was reset
+# TYPE jvm_threads_peak_threads gauge
+jvm_threads_peak_threads 34.0
+# HELP vendor_jgroups_tcp_get_num_ucast_bytes_received Number of unicast bytes received
+# TYPE vendor_jgroups_tcp_get_num_ucast_bytes_received gauge
+vendor_jgroups_tcp_get_num_ucast_bytes_received{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP worker_pool_queue_size Number of pending elements in the waiting queue
+# TYPE worker_pool_queue_size gauge
+worker_pool_queue_size{pool_name="vert.x-internal-blocking",pool_type="worker",} 0.0
+worker_pool_queue_size{pool_name="vert.x-worker-thread",pool_type="worker",} 0.0
+# HELP vendor_cache_container_health_total_memory_kb The amount of total memory (KB) in the host
+# TYPE vendor_cache_container_health_total_memory_kb gauge
+vendor_cache_container_health_total_memory_kb{cache_manager="keycloak",node="keycloak-0-61314",} 192512.0
+# HELP vendor_rpc_manager_average_replication_time The average time spent in the transport layer, in milliseconds
+# TYPE vendor_rpc_manager_average_replication_time gauge
+vendor_rpc_manager_average_replication_time{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_rpc_manager_average_replication_time{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_rpc_manager_average_replication_time{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_rpc_manager_average_replication_time{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_rpc_manager_average_replication_time{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_rpc_manager_average_replication_time{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_rpc_manager_average_replication_time{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_rpc_manager_average_replication_time{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+# HELP base_classloader_unloadedClasses_total Displays the total number of classes unloaded since the Java virtual machine has started execution.
+# TYPE base_classloader_unloadedClasses_total counter
+base_classloader_unloadedClasses_total 0.0
+# HELP agroal_creation_time_average_milliseconds Average time for a connection to be created.
+# TYPE agroal_creation_time_average_milliseconds gauge
+agroal_creation_time_average_milliseconds{datasource="default",} 651.0
+# HELP vendor_cache_container_stats_hits Cache container total number of cache attribute hits
+# TYPE vendor_cache_container_stats_hits gauge
+vendor_cache_container_stats_hits{cache_manager="keycloak",node="keycloak-0-61314",} 83.0
+# HELP vendor_BufferPool_used_memory_mapped_bytes The memory used by the NIO pool:mapped
+# TYPE vendor_BufferPool_used_memory_mapped_bytes gauge
+vendor_BufferPool_used_memory_mapped_bytes 0.0
+# HELP vendor_rpc_manager_replication_count Number of successful replications
+# TYPE vendor_rpc_manager_replication_count gauge
+vendor_rpc_manager_replication_count{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_rpc_manager_replication_count{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_rpc_manager_replication_count{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_rpc_manager_replication_count{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_rpc_manager_replication_count{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_rpc_manager_replication_count{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_rpc_manager_replication_count{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_rpc_manager_replication_count{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+# HELP netty_eventexecutor_tasks_pending  
+# TYPE netty_eventexecutor_tasks_pending gauge
+netty_eventexecutor_tasks_pending{name="vert.x-eventloop-thread-1",} 0.0
+netty_eventexecutor_tasks_pending{name="vert.x-eventloop-thread-0",} 0.0
+netty_eventexecutor_tasks_pending{name="vert.x-acceptor-thread-0",} 0.0
+# HELP vendor_jgroups_nakack2_get_size_of_all_messages_incl_headers Returns the number of bytes of all messages in all retransmit buffers. To compute the size, Message.size() is used
+# TYPE vendor_jgroups_nakack2_get_size_of_all_messages_incl_headers gauge
+vendor_jgroups_nakack2_get_size_of_all_messages_incl_headers{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP http_server_active_requests  
+# TYPE http_server_active_requests gauge
+http_server_active_requests 0.0
+# HELP vendor_jgroups_nakack2_get_xmit_table_num_current_rows Prints the number of rows currently allocated in the matrix. This value will not be lower than xmit_table_now_rows
+# TYPE vendor_jgroups_nakack2_get_xmit_table_num_current_rows gauge
+vendor_jgroups_nakack2_get_xmit_table_num_current_rows{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 50.0
+# HELP vendor_jgroups_unicast3_get_num_unacked_messages 
+# TYPE vendor_jgroups_unicast3_get_num_unacked_messages gauge
+vendor_jgroups_unicast3_get_num_unacked_messages{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP vendor_jgroups_nakack2_get_xmit_table_capacity Capacity of the retransmit buffer. Computed as xmit_table_num_rows * xmit_table_msgs_per_row
+# TYPE vendor_jgroups_nakack2_get_xmit_table_capacity gauge
+vendor_jgroups_nakack2_get_xmit_table_capacity{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 51200.0
+# HELP worker_pool_completed_total Number of times resources from the pool have been acquired
+# TYPE worker_pool_completed_total counter
+worker_pool_completed_total{pool_name="vert.x-internal-blocking",pool_type="worker",} 0.0
+worker_pool_completed_total{pool_name="vert.x-worker-thread",pool_type="worker",} 31.0
+# HELP base_jvm_uptime Displays the uptime of the Java virtual machine.
+# TYPE base_jvm_uptime gauge
+base_jvm_uptime 312267.0
+# HELP vendor_jgroups_unicast3_get_num_loopbacks Number of unicast messages to self looped back up
+# TYPE vendor_jgroups_unicast3_get_num_loopbacks gauge
+vendor_jgroups_unicast3_get_num_loopbacks{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP vendor_memoryPool_G1_Old_Gen_usage_max_bytes Peak usage of the G1 Old Gen memory pool
+# TYPE vendor_memoryPool_G1_Old_Gen_usage_max_bytes gauge
+vendor_memoryPool_G1_Old_Gen_usage_max_bytes 5.3178576E7
+# HELP vendor_jgroups_tcp_get_num_single_msgs_sent Number of single messages sent (by the bundler)
+# TYPE vendor_jgroups_tcp_get_num_single_msgs_sent gauge
+vendor_jgroups_tcp_get_num_single_msgs_sent{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 72.0
+# HELP vendor_local_container_stats_memory_total The total amount of memory in the local JVM in bytes
+# TYPE vendor_local_container_stats_memory_total gauge
+vendor_local_container_stats_memory_total{cache_manager="keycloak",node="keycloak-0-61314",} 1.97132288E8
+# HELP vendor_jgroups_tcp_get_num_ucast_bytes_sent Number of unicast bytes sent
+# TYPE vendor_jgroups_tcp_get_num_ucast_bytes_sent gauge
+vendor_jgroups_tcp_get_num_ucast_bytes_sent{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 5100.0
+# HELP vendor_statistics_remove_miss_non_owner_total The number of single key remove misses when this node is not an owner
+# TYPE vendor_statistics_remove_miss_non_owner_total counter
+vendor_statistics_remove_miss_non_owner_total{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_miss_non_owner_total{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_miss_non_owner_total{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_miss_non_owner_total{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_miss_non_owner_total{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_miss_non_owner_total{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_miss_non_owner_total{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_miss_non_owner_total{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+# HELP vendor_jgroups_unicast3_get_xmit_table_num_purges Number of purges in all (receive and send) windows
+# TYPE vendor_jgroups_unicast3_get_xmit_table_num_purges gauge
+vendor_jgroups_unicast3_get_xmit_table_num_purges{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP vendor_cache_container_stats_evictions Cache container total number of cache eviction operations
+# TYPE vendor_cache_container_stats_evictions gauge
+vendor_cache_container_stats_evictions{cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+# HELP base_classloader_loadedClasses_total Displays the total number of classes that have been loaded since the Java virtual machine has started execution.
+# TYPE base_classloader_loadedClasses_total counter
+base_classloader_loadedClasses_total 22703.0
+# HELP vendor_statistics_average_remove_time_nanos Average number of nanoseconds for a remove operation in the cache
+# TYPE vendor_statistics_average_remove_time_nanos gauge
+vendor_statistics_average_remove_time_nanos{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_average_remove_time_nanos{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_average_remove_time_nanos{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_average_remove_time_nanos{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_average_remove_time_nanos{cache="keys",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_average_remove_time_nanos{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_average_remove_time_nanos{cache="authorization",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_average_remove_time_nanos{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_average_remove_time_nanos{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_average_remove_time_nanos{cache="users",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_average_remove_time_nanos{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_average_remove_time_nanos{cache="realms",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+# HELP vendor_cluster_size Size of the cluster in number of nodes
+# TYPE vendor_cluster_size gauge
+vendor_cluster_size{cache_manager="keycloak",node="keycloak-0-61314",} 1.0
+# HELP vendor_rpc_manager_replication_failures Number of failed replications
+# TYPE vendor_rpc_manager_replication_failures gauge
+vendor_rpc_manager_replication_failures{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_rpc_manager_replication_failures{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_rpc_manager_replication_failures{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_rpc_manager_replication_failures{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_rpc_manager_replication_failures{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_rpc_manager_replication_failures{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_rpc_manager_replication_failures{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_rpc_manager_replication_failures{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+# HELP vendor_statistics_number_of_entries Number of entries in the cache including passivated entries
+# TYPE vendor_statistics_number_of_entries gauge
+vendor_statistics_number_of_entries{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} -1.0
+vendor_statistics_number_of_entries{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} -1.0
+vendor_statistics_number_of_entries{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} -1.0
+vendor_statistics_number_of_entries{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} -1.0
+vendor_statistics_number_of_entries{cache="keys",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_number_of_entries{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} -1.0
+vendor_statistics_number_of_entries{cache="authorization",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_number_of_entries{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} -1.0
+vendor_statistics_number_of_entries{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} -1.0
+vendor_statistics_number_of_entries{cache="users",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_number_of_entries{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} -1.0
+vendor_statistics_number_of_entries{cache="realms",cache_manager="keycloak",node="keycloak-0-61314",} 18.0
+# HELP vendor_statistics_required_minimum_number_of_nodes Amount of nodes required to guarantee data consistency
+# TYPE vendor_statistics_required_minimum_number_of_nodes gauge
+vendor_statistics_required_minimum_number_of_nodes{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 1.0
+vendor_statistics_required_minimum_number_of_nodes{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} 1.0
+vendor_statistics_required_minimum_number_of_nodes{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 1.0
+vendor_statistics_required_minimum_number_of_nodes{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} 1.0
+vendor_statistics_required_minimum_number_of_nodes{cache="keys",cache_manager="keycloak",node="keycloak-0-61314",} 1.0
+vendor_statistics_required_minimum_number_of_nodes{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} 1.0
+vendor_statistics_required_minimum_number_of_nodes{cache="authorization",cache_manager="keycloak",node="keycloak-0-61314",} 1.0
+vendor_statistics_required_minimum_number_of_nodes{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} 1.0
+vendor_statistics_required_minimum_number_of_nodes{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} 1.0
+vendor_statistics_required_minimum_number_of_nodes{cache="users",cache_manager="keycloak",node="keycloak-0-61314",} 1.0
+vendor_statistics_required_minimum_number_of_nodes{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} 1.0
+vendor_statistics_required_minimum_number_of_nodes{cache="realms",cache_manager="keycloak",node="keycloak-0-61314",} 1.0
+# HELP vendor_statistics_evictions Number of cache eviction operations
+# TYPE vendor_statistics_evictions gauge
+vendor_statistics_evictions{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_evictions{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_evictions{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_evictions{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_evictions{cache="keys",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_evictions{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_evictions{cache="authorization",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_evictions{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_evictions{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_evictions{cache="users",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_evictions{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_evictions{cache="realms",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+# HELP vendor_memoryPool_CodeHeap_non_nmethods_usage_max_bytes Peak usage of the CodeHeap 'non-nmethods' memory pool
+# TYPE vendor_memoryPool_CodeHeap_non_nmethods_usage_max_bytes gauge
+vendor_memoryPool_CodeHeap_non_nmethods_usage_max_bytes 2336000.0
+# HELP jvm_memory_max_bytes The maximum amount of memory in bytes that can be used for memory management
+# TYPE jvm_memory_max_bytes gauge
+jvm_memory_max_bytes{area="nonheap",id="CodeHeap 'profiled nmethods'",} 1.22912768E8
+jvm_memory_max_bytes{area="heap",id="G1 Survivor Space",} -1.0
+jvm_memory_max_bytes{area="heap",id="G1 Old Gen",} 5.83008256E9
+jvm_memory_max_bytes{area="nonheap",id="Metaspace",} 2.68435456E8
+jvm_memory_max_bytes{area="nonheap",id="CodeHeap 'non-nmethods'",} 5828608.0
+jvm_memory_max_bytes{area="heap",id="G1 Eden Space",} -1.0
+jvm_memory_max_bytes{area="nonheap",id="Compressed Class Space",} 2.18103808E8
+jvm_memory_max_bytes{area="nonheap",id="CodeHeap 'non-profiled nmethods'",} 1.22916864E8
+# HELP vendor_statistics_data_memory_used Amount of memory in bytes allocated for use in eviction for data in the cache
+# TYPE vendor_statistics_data_memory_used gauge
+vendor_statistics_data_memory_used{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} -1.0
+vendor_statistics_data_memory_used{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} -1.0
+vendor_statistics_data_memory_used{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} -1.0
+vendor_statistics_data_memory_used{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} -1.0
+vendor_statistics_data_memory_used{cache="keys",cache_manager="keycloak",node="keycloak-0-61314",} -1.0
+vendor_statistics_data_memory_used{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} -1.0
+vendor_statistics_data_memory_used{cache="authorization",cache_manager="keycloak",node="keycloak-0-61314",} -1.0
+vendor_statistics_data_memory_used{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} -1.0
+vendor_statistics_data_memory_used{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} -1.0
+vendor_statistics_data_memory_used{cache="users",cache_manager="keycloak",node="keycloak-0-61314",} -1.0
+vendor_statistics_data_memory_used{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} -1.0
+vendor_statistics_data_memory_used{cache="realms",cache_manager="keycloak",node="keycloak-0-61314",} -1.0
+# HELP vendor_jgroups_nakack2_get_xmit_table_num_moves Number of retransmit table moves
+# TYPE vendor_jgroups_nakack2_get_xmit_table_num_moves gauge
+vendor_jgroups_nakack2_get_xmit_table_num_moves{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP vendor_statistics_miss_non_owner_total The number of single key read misses when this node is not an owner
+# TYPE vendor_statistics_miss_non_owner_total counter
+vendor_statistics_miss_non_owner_total{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_miss_non_owner_total{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_miss_non_owner_total{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_miss_non_owner_total{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_miss_non_owner_total{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_miss_non_owner_total{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_miss_non_owner_total{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_miss_non_owner_total{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+# HELP vendor_rpc_manager_number_xsite_requests_received Returns the number of cross-site requests received from all nodes
+# TYPE vendor_rpc_manager_number_xsite_requests_received gauge
+vendor_rpc_manager_number_xsite_requests_received{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_rpc_manager_number_xsite_requests_received{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_rpc_manager_number_xsite_requests_received{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_rpc_manager_number_xsite_requests_received{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_rpc_manager_number_xsite_requests_received{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_rpc_manager_number_xsite_requests_received{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_rpc_manager_number_xsite_requests_received{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_rpc_manager_number_xsite_requests_received{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+# HELP jvm_buffer_total_capacity_bytes An estimate of the total capacity of the buffers in this pool
+# TYPE jvm_buffer_total_capacity_bytes gauge
+jvm_buffer_total_capacity_bytes{id="mapped - 'non-volatile memory'",} 0.0
+jvm_buffer_total_capacity_bytes{id="mapped",} 0.0
+jvm_buffer_total_capacity_bytes{id="direct",} 368720.0
+# HELP agroal_creation_time_total_milliseconds Total time waiting for connections to be created.
+# TYPE agroal_creation_time_total_milliseconds gauge
+agroal_creation_time_total_milliseconds{datasource="default",} 1302.0
+# HELP base_cpu_processCpuTime Displays the CPU time, in nanoseconds, used by the process on which the Java virtual machine is running.
+# TYPE base_cpu_processCpuTime gauge
+base_cpu_processCpuTime 2.538E10
+# HELP vendor_jgroups_unicast3_get_num_receive_connections Returns the number of incoming (receive) connections
+# TYPE vendor_jgroups_unicast3_get_num_receive_connections gauge
+vendor_jgroups_unicast3_get_num_receive_connections{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP vendor_cache_container_stats_average_read_time_nanos Cache container total average number of nanoseconds for all read operation in this cache container
+# TYPE vendor_cache_container_stats_average_read_time_nanos gauge
+vendor_cache_container_stats_average_read_time_nanos{cache_manager="keycloak",node="keycloak-0-61314",} 318747.0
+# HELP jvm_gc_max_data_size_bytes Max size of long-lived heap memory pool
+# TYPE jvm_gc_max_data_size_bytes gauge
+jvm_gc_max_data_size_bytes 5.83008256E9
+# HELP base_classloader_loadedClasses_count Displays the number of classes that are currently loaded in the Java virtual machine.
+# TYPE base_classloader_loadedClasses_count gauge
+base_classloader_loadedClasses_count 22704.0
+# HELP vendor_jgroups_mfc_get_number_of_credit_responses_sent 
+# TYPE vendor_jgroups_mfc_get_number_of_credit_responses_sent gauge
+vendor_jgroups_mfc_get_number_of_credit_responses_sent{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP process_cpu_time_ns_total The "cpu time" used by the Java Virtual Machine process
+# TYPE process_cpu_time_ns_total counter
+process_cpu_time_ns_total 2.538E10
+# HELP jvm_gc_live_data_size_bytes Size of long-lived heap memory pool after reclamation
+# TYPE jvm_gc_live_data_size_bytes gauge
+jvm_gc_live_data_size_bytes 0.0
+# HELP vendor_jgroups_tcp_get_largest_size Largest number of threads in the thread pool
+# TYPE vendor_jgroups_tcp_get_largest_size gauge
+vendor_jgroups_tcp_get_largest_size{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP agroal_invalid_count_total Number of connections removed from the pool for being idle.
+# TYPE agroal_invalid_count_total counter
+agroal_invalid_count_total{datasource="default",} 0.0
+# HELP vendor_jgroups_tcp_get_num_mcasts_received Total number of multicast messages received
+# TYPE vendor_jgroups_tcp_get_num_mcasts_received gauge
+vendor_jgroups_tcp_get_num_mcasts_received{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP vendor_statistics_remove_hit_backup_owner_total The number of single key remove hits when this node is the backup owner
+# TYPE vendor_statistics_remove_hit_backup_owner_total counter
+vendor_statistics_remove_hit_backup_owner_total{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_hit_backup_owner_total{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_hit_backup_owner_total{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_hit_backup_owner_total{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_hit_backup_owner_total{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_hit_backup_owner_total{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_hit_backup_owner_total{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_hit_backup_owner_total{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+# HELP vendor_memoryPool_G1_Survivor_Space_usage_max_bytes Peak usage of the G1 Survivor Space memory pool
+# TYPE vendor_memoryPool_G1_Survivor_Space_usage_max_bytes gauge
+vendor_memoryPool_G1_Survivor_Space_usage_max_bytes 2.9360128E7
+# HELP vendor_jgroups_unicast3_get_num_messages_sent 
+# TYPE vendor_jgroups_unicast3_get_num_messages_sent gauge
+vendor_jgroups_unicast3_get_num_messages_sent{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP vendor_number_of_created_caches The total number of created caches, including the default cache.
+# TYPE vendor_number_of_created_caches gauge
+vendor_number_of_created_caches{cache_manager="keycloak",node="keycloak-0-61314",} 15.0
+# HELP vendor_statistics_approximate_entries_unique Approximate number of entries currently in the cache for which the local node is a primary owner, including persisted and expired entries
+# TYPE vendor_statistics_approximate_entries_unique gauge
+vendor_statistics_approximate_entries_unique{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_approximate_entries_unique{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_approximate_entries_unique{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_approximate_entries_unique{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} 1.0
+vendor_statistics_approximate_entries_unique{cache="keys",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_approximate_entries_unique{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_approximate_entries_unique{cache="authorization",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_approximate_entries_unique{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_approximate_entries_unique{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} 1.0
+vendor_statistics_approximate_entries_unique{cache="users",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_approximate_entries_unique{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_approximate_entries_unique{cache="realms",cache_manager="keycloak",node="keycloak-0-61314",} 18.0
+# HELP agroal_active_count Number of active connections. These connections are in use and not available to be acquired.
+# TYPE agroal_active_count gauge
+agroal_active_count{datasource="default",} 0.0
+# HELP vendor_rpc_manager_maximum_xsite_replication_time Returns the maximum replication time, in milliseconds, for a cross-site replication request
+# TYPE vendor_rpc_manager_maximum_xsite_replication_time gauge
+vendor_rpc_manager_maximum_xsite_replication_time{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} -1.0
+vendor_rpc_manager_maximum_xsite_replication_time{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} -1.0
+vendor_rpc_manager_maximum_xsite_replication_time{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} -1.0
+vendor_rpc_manager_maximum_xsite_replication_time{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} -1.0
+vendor_rpc_manager_maximum_xsite_replication_time{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} -1.0
+vendor_rpc_manager_maximum_xsite_replication_time{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} -1.0
+vendor_rpc_manager_maximum_xsite_replication_time{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} -1.0
+vendor_rpc_manager_maximum_xsite_replication_time{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} -1.0
+# HELP jvm_gc_memory_allocated_bytes_total Incremented for an increase in the size of the (young) heap memory pool after one GC to before the next
+# TYPE jvm_gc_memory_allocated_bytes_total counter
+jvm_gc_memory_allocated_bytes_total 2.13909504E8
+# HELP vendor_memoryPool_CodeHeap_non_profiled_nmethods_usage_max_bytes Peak usage of the CodeHeap 'non-profiled nmethods' memory pool
+# TYPE vendor_memoryPool_CodeHeap_non_profiled_nmethods_usage_max_bytes gauge
+vendor_memoryPool_CodeHeap_non_profiled_nmethods_usage_max_bytes 5235968.0
+# HELP vendor_statistics_approximate_entries Approximate number of entries currently in the cache, including persisted and expired entries
+# TYPE vendor_statistics_approximate_entries gauge
+vendor_statistics_approximate_entries{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_approximate_entries{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_approximate_entries{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_approximate_entries{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} 1.0
+vendor_statistics_approximate_entries{cache="keys",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_approximate_entries{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_approximate_entries{cache="authorization",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_approximate_entries{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_approximate_entries{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} 1.0
+vendor_statistics_approximate_entries{cache="users",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_approximate_entries{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_approximate_entries{cache="realms",cache_manager="keycloak",node="keycloak-0-61314",} 18.0
+# HELP vendor_statistics_store_backup_owner_total The number of single key stores when this node is the backup owner
+# TYPE vendor_statistics_store_backup_owner_total counter
+vendor_statistics_store_backup_owner_total{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_store_backup_owner_total{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_store_backup_owner_total{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_store_backup_owner_total{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_store_backup_owner_total{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_store_backup_owner_total{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_store_backup_owner_total{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_store_backup_owner_total{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+# HELP vendor_cache_container_health_free_memory_kb The amount of free memory (KB) in the host
+# TYPE vendor_cache_container_health_free_memory_kb gauge
+vendor_cache_container_health_free_memory_kb{cache_manager="keycloak",node="keycloak-0-61314",} 86723.0
+# HELP vendor_statistics_average_read_time_nanos Average number of nanoseconds for a read operation on the cache
+# TYPE vendor_statistics_average_read_time_nanos gauge
+vendor_statistics_average_read_time_nanos{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_average_read_time_nanos{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_average_read_time_nanos{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_average_read_time_nanos{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} 334415.0
+vendor_statistics_average_read_time_nanos{cache="keys",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_average_read_time_nanos{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_average_read_time_nanos{cache="authorization",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_average_read_time_nanos{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_average_read_time_nanos{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} 597825.0
+vendor_statistics_average_read_time_nanos{cache="users",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_average_read_time_nanos{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_average_read_time_nanos{cache="realms",cache_manager="keycloak",node="keycloak-0-61314",} 24001.0
+# HELP vendor_cache_container_stats_read_write_ratio Cache container read/writes ratio in all caches from this cache container
+# TYPE vendor_cache_container_stats_read_write_ratio gauge
+vendor_cache_container_stats_read_write_ratio{cache_manager="keycloak",node="keycloak-0-61314",} 5.3
+# HELP vendor_jgroups_gms_get_view_handler_size 
+# TYPE vendor_jgroups_gms_get_view_handler_size gauge
+vendor_jgroups_gms_get_view_handler_size{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP vendor_jgroups_ufc_get_number_of_credit_requests_sent 
+# TYPE vendor_jgroups_ufc_get_number_of_credit_requests_sent gauge
+vendor_jgroups_ufc_get_number_of_credit_requests_sent{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP vendor_statistics_hits Number of cache attribute hits
+# TYPE vendor_statistics_hits gauge
+vendor_statistics_hits{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hits{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hits{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hits{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hits{cache="keys",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hits{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hits{cache="authorization",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hits{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hits{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hits{cache="users",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hits{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hits{cache="realms",cache_manager="keycloak",node="keycloak-0-61314",} 83.0
+# HELP vendor_statistics_remove_miss_times_seconds The remove misses times
+# TYPE vendor_statistics_remove_miss_times_seconds summary
+vendor_statistics_remove_miss_times_seconds_count{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_miss_times_seconds_sum{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_miss_times_seconds_count{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_miss_times_seconds_sum{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_miss_times_seconds_count{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_miss_times_seconds_sum{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_miss_times_seconds_count{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_miss_times_seconds_sum{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_miss_times_seconds_count{cache="keys",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_miss_times_seconds_sum{cache="keys",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_miss_times_seconds_count{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_miss_times_seconds_sum{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_miss_times_seconds_count{cache="authorization",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_miss_times_seconds_sum{cache="authorization",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_miss_times_seconds_count{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_miss_times_seconds_sum{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_miss_times_seconds_count{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_miss_times_seconds_sum{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_miss_times_seconds_count{cache="users",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_miss_times_seconds_sum{cache="users",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_miss_times_seconds_count{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_miss_times_seconds_sum{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_miss_times_seconds_count{cache="realms",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_miss_times_seconds_sum{cache="realms",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+# HELP vendor_jgroups_tcp_get_thread_pool_size Current number of threads in the thread pool
+# TYPE vendor_jgroups_tcp_get_thread_pool_size gauge
+vendor_jgroups_tcp_get_thread_pool_size{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP jvm_threads_states_threads The current number of threads
+# TYPE jvm_threads_states_threads gauge
+jvm_threads_states_threads{state="runnable",} 9.0
+jvm_threads_states_threads{state="blocked",} 0.0
+jvm_threads_states_threads{state="waiting",} 12.0
+jvm_threads_states_threads{state="timed-waiting",} 12.0
+jvm_threads_states_threads{state="new",} 0.0
+jvm_threads_states_threads{state="terminated",} 0.0
+# HELP vendor_memoryPool_Metaspace_usage_bytes Current usage of the Metaspace memory pool
+# TYPE vendor_memoryPool_Metaspace_usage_bytes gauge
+vendor_memoryPool_Metaspace_usage_bytes 1.22164768E8
+# HELP vendor_jgroups_unicast3_get_xmit_table_num_resizes Number of resizes in all (receive and send) windows
+# TYPE vendor_jgroups_unicast3_get_xmit_table_num_resizes gauge
+vendor_jgroups_unicast3_get_xmit_table_num_resizes{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP vendor_statistics_misses Number of cache attribute misses
+# TYPE vendor_statistics_misses gauge
+vendor_statistics_misses{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_misses{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_misses{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_misses{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} 1.0
+vendor_statistics_misses{cache="keys",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_misses{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_misses{cache="authorization",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_misses{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_misses{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} 1.0
+vendor_statistics_misses{cache="users",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_misses{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_misses{cache="realms",cache_manager="keycloak",node="keycloak-0-61314",} 21.0
+# HELP vendor_number_of_running_caches The total number of running caches, including the default cache.
+# TYPE vendor_number_of_running_caches gauge
+vendor_number_of_running_caches{cache_manager="keycloak",node="keycloak-0-61314",} 15.0
+# HELP worker_pool_idle The number of resources from the pool currently used
+# TYPE worker_pool_idle gauge
+worker_pool_idle{pool_name="vert.x-internal-blocking",pool_type="worker",} 20.0
+worker_pool_idle{pool_name="vert.x-worker-thread",pool_type="worker",} 49.0
+# HELP vendor_jgroups_unicast3_get_xmit_table_num_moves Number of moves in all (receive and send) windows
+# TYPE vendor_jgroups_unicast3_get_xmit_table_num_moves gauge
+vendor_jgroups_unicast3_get_xmit_table_num_moves{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP vendor_rpc_manager_cross_site_replication_times_seconds Cross Site Replication Times
+# TYPE vendor_rpc_manager_cross_site_replication_times_seconds summary
+vendor_rpc_manager_cross_site_replication_times_seconds_count{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_rpc_manager_cross_site_replication_times_seconds_sum{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_rpc_manager_cross_site_replication_times_seconds_count{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_rpc_manager_cross_site_replication_times_seconds_sum{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_rpc_manager_cross_site_replication_times_seconds_count{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_rpc_manager_cross_site_replication_times_seconds_sum{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_rpc_manager_cross_site_replication_times_seconds_count{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_rpc_manager_cross_site_replication_times_seconds_sum{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_rpc_manager_cross_site_replication_times_seconds_count{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_rpc_manager_cross_site_replication_times_seconds_sum{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_rpc_manager_cross_site_replication_times_seconds_count{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_rpc_manager_cross_site_replication_times_seconds_sum{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_rpc_manager_cross_site_replication_times_seconds_count{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_rpc_manager_cross_site_replication_times_seconds_sum{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_rpc_manager_cross_site_replication_times_seconds_count{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_rpc_manager_cross_site_replication_times_seconds_sum{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+# HELP vendor_cache_container_stats_average_read_time Cache container total average number of milliseconds for all read operation in this cache container
+# TYPE vendor_cache_container_stats_average_read_time gauge
+vendor_cache_container_stats_average_read_time{cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+# HELP http_server_connections_seconds_max The duration of the connections
+# TYPE http_server_connections_seconds_max gauge
+http_server_connections_seconds_max 0.162093405
+# HELP http_server_connections_seconds The duration of the connections
+# TYPE http_server_connections_seconds summary
+http_server_connections_seconds_active_count 1.0
+http_server_connections_seconds_duration_sum 0.161672994
+# HELP agroal_blocking_time_max_milliseconds Maximum time an application waited to acquire a connection.
+# TYPE agroal_blocking_time_max_milliseconds gauge
+agroal_blocking_time_max_milliseconds{datasource="default",} 1265.0
+# HELP base_memory_maxHeap_bytes Displays the maximum amount of memory, in bytes, that can be used for memory management.
+# TYPE base_memory_maxHeap_bytes gauge
+base_memory_maxHeap_bytes 5.83008256E9
+# HELP vendor_jgroups_unicast3_get_xmit_table_num_compactions Number of compactions in all (receive and send) windows
+# TYPE vendor_jgroups_unicast3_get_xmit_table_num_compactions gauge
+vendor_jgroups_unicast3_get_xmit_table_num_compactions{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP vendor_jgroups_nakack2_get_non_member_messages Number of messages from non-members
+# TYPE vendor_jgroups_nakack2_get_non_member_messages gauge
+vendor_jgroups_nakack2_get_non_member_messages{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP jvm_classes_loaded_classes The number of classes that are currently loaded in the Java virtual machine
+# TYPE jvm_classes_loaded_classes gauge
+jvm_classes_loaded_classes 22722.0
+# HELP jvm_memory_usage_after_gc The percentage of long-lived heap pool used after the last GC event, in the range [0..1]
+# TYPE jvm_memory_usage_after_gc gauge
+jvm_memory_usage_after_gc{area="heap",pool="long-lived",} 0.009121410452204642
+# HELP vendor_cache_container_stats_time_since_start Number of seconds since cache started
+# TYPE vendor_cache_container_stats_time_since_start gauge
+vendor_cache_container_stats_time_since_start{cache_manager="keycloak",node="keycloak-0-61314",} 176486.0
+# HELP vendor_jgroups_unicast3_get_num_xmits Number of retransmitted messages
+# TYPE vendor_jgroups_unicast3_get_num_xmits gauge
+vendor_jgroups_unicast3_get_num_xmits{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP vendor_local_container_stats_time_since_reset Number of seconds since the statistics were last reset
+# TYPE vendor_local_container_stats_time_since_reset gauge
+vendor_local_container_stats_time_since_reset{cache_manager="keycloak",node="keycloak-0-61314",} 298.0
+# HELP worker_pool_usage_seconds Time spent using resources from the pool
+# TYPE worker_pool_usage_seconds summary
+worker_pool_usage_seconds_count{pool_name="vert.x-internal-blocking",pool_type="worker",} 0.0
+worker_pool_usage_seconds_sum{pool_name="vert.x-internal-blocking",pool_type="worker",} 0.0
+worker_pool_usage_seconds_count{pool_name="vert.x-worker-thread",pool_type="worker",} 31.0
+worker_pool_usage_seconds_sum{pool_name="vert.x-worker-thread",pool_type="worker",} 0.113564747
+# HELP worker_pool_usage_seconds_max Time spent using resources from the pool
+# TYPE worker_pool_usage_seconds_max gauge
+worker_pool_usage_seconds_max{pool_name="vert.x-internal-blocking",pool_type="worker",} 0.0
+worker_pool_usage_seconds_max{pool_name="vert.x-worker-thread",pool_type="worker",} 0.005890359
+# HELP agroal_max_used_count Maximum number of connections active simultaneously.
+# TYPE agroal_max_used_count gauge
+agroal_max_used_count{datasource="default",} 2.0
+# HELP base_memory_maxNonHeap_bytes Displays the maximum amount of memory in bytes that can be used for memory management.
+# TYPE base_memory_maxNonHeap_bytes gauge
+base_memory_maxNonHeap_bytes 7.38197504E8
+# HELP worker_pool_ratio Pool usage ratio
+# TYPE worker_pool_ratio gauge
+worker_pool_ratio{pool_name="vert.x-internal-blocking",pool_type="worker",} NaN
+worker_pool_ratio{pool_name="vert.x-worker-thread",pool_type="worker",} 0.02
+# HELP vendor_BufferPool_used_memory_mapped_non_volatile_memory_bytes The memory used by the NIO pool:mapped - 'non-volatile memory'
+# TYPE vendor_BufferPool_used_memory_mapped_non_volatile_memory_bytes gauge
+vendor_BufferPool_used_memory_mapped_non_volatile_memory_bytes 0.0
+# HELP vendor_statistics_hit_primary_owner_total The number of single key read hits when this node is the primary owner
+# TYPE vendor_statistics_hit_primary_owner_total counter
+vendor_statistics_hit_primary_owner_total{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hit_primary_owner_total{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hit_primary_owner_total{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hit_primary_owner_total{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hit_primary_owner_total{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hit_primary_owner_total{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hit_primary_owner_total{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hit_primary_owner_total{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+# HELP vendor_memoryPool_CodeHeap_profiled_nmethods_usage_bytes Current usage of the CodeHeap 'profiled nmethods' memory pool
+# TYPE vendor_memoryPool_CodeHeap_profiled_nmethods_usage_bytes gauge
+vendor_memoryPool_CodeHeap_profiled_nmethods_usage_bytes 2.0466304E7
+# HELP vendor_jgroups_tcp_get_num_msgs_received Number of messages received (mcasts and ucasts received)
+# TYPE vendor_jgroups_tcp_get_num_msgs_received gauge
+vendor_jgroups_tcp_get_num_msgs_received{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP worker_pool_queue_delay_seconds_max Time spent in the waiting queue before being processed
+# TYPE worker_pool_queue_delay_seconds_max gauge
+worker_pool_queue_delay_seconds_max{pool_name="vert.x-internal-blocking",pool_type="worker",} 0.0
+worker_pool_queue_delay_seconds_max{pool_name="vert.x-worker-thread",pool_type="worker",} 0.001723652
+# HELP worker_pool_queue_delay_seconds Time spent in the waiting queue before being processed
+# TYPE worker_pool_queue_delay_seconds summary
+worker_pool_queue_delay_seconds_count{pool_name="vert.x-internal-blocking",pool_type="worker",} 0.0
+worker_pool_queue_delay_seconds_sum{pool_name="vert.x-internal-blocking",pool_type="worker",} 0.0
+worker_pool_queue_delay_seconds_count{pool_name="vert.x-worker-thread",pool_type="worker",} 32.0
+worker_pool_queue_delay_seconds_sum{pool_name="vert.x-worker-thread",pool_type="worker",} 0.009670796
+# HELP vendor_statistics_approximate_entries_in_memory Approximate number of entries currently in memory, including expired entries
+# TYPE vendor_statistics_approximate_entries_in_memory gauge
+vendor_statistics_approximate_entries_in_memory{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_approximate_entries_in_memory{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_approximate_entries_in_memory{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_approximate_entries_in_memory{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} 1.0
+vendor_statistics_approximate_entries_in_memory{cache="keys",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_approximate_entries_in_memory{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_approximate_entries_in_memory{cache="authorization",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_approximate_entries_in_memory{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_approximate_entries_in_memory{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} 1.0
+vendor_statistics_approximate_entries_in_memory{cache="users",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_approximate_entries_in_memory{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_approximate_entries_in_memory{cache="realms",cache_manager="keycloak",node="keycloak-0-61314",} 18.0
+# HELP vendor_statistics_time_since_reset Number of seconds since the cache statistics were last reset
+# TYPE vendor_statistics_time_since_reset gauge
+vendor_statistics_time_since_reset{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 298.0
+vendor_statistics_time_since_reset{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} 298.0
+vendor_statistics_time_since_reset{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 298.0
+vendor_statistics_time_since_reset{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} 298.0
+vendor_statistics_time_since_reset{cache="keys",cache_manager="keycloak",node="keycloak-0-61314",} 176486.0
+vendor_statistics_time_since_reset{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} 298.0
+vendor_statistics_time_since_reset{cache="authorization",cache_manager="keycloak",node="keycloak-0-61314",} 176486.0
+vendor_statistics_time_since_reset{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} 298.0
+vendor_statistics_time_since_reset{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} 298.0
+vendor_statistics_time_since_reset{cache="users",cache_manager="keycloak",node="keycloak-0-61314",} 176486.0
+vendor_statistics_time_since_reset{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} 298.0
+vendor_statistics_time_since_reset{cache="realms",cache_manager="keycloak",node="keycloak-0-61314",} 176486.0
+# HELP vendor_cache_container_stats_average_write_time_nanos Cache container average number of nanoseconds for all write operation in this cache container
+# TYPE vendor_cache_container_stats_average_write_time_nanos gauge
+vendor_cache_container_stats_average_write_time_nanos{cache_manager="keycloak",node="keycloak-0-61314",} 3.9776467E7
+# HELP vendor_jgroups_fd_sock2_get_num_suspected_members The number of currently suspected members
+# TYPE vendor_jgroups_fd_sock2_get_num_suspected_members gauge
+vendor_jgroups_fd_sock2_get_num_suspected_members{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP netty_allocator_memory_used  
+# TYPE netty_allocator_memory_used gauge
+netty_allocator_memory_used{allocator_type="PooledByteBufAllocator",id="1215546949",memory_type="direct",} 327680.0
+netty_allocator_memory_used{allocator_type="UnpooledByteBufAllocator",id="1769947269",memory_type="heap",} 0.0
+netty_allocator_memory_used{allocator_type="UnpooledByteBufAllocator",id="2099828005",memory_type="heap",} 512.0
+netty_allocator_memory_used{allocator_type="PooledByteBufAllocator",id="1907364633",memory_type="heap",} 0.0
+netty_allocator_memory_used{allocator_type="PooledByteBufAllocator",id="1907364633",memory_type="direct",} 0.0
+netty_allocator_memory_used{allocator_type="UnpooledByteBufAllocator",id="1769947269",memory_type="direct",} 0.0
+netty_allocator_memory_used{allocator_type="UnpooledByteBufAllocator",id="2099828005",memory_type="direct",} 31.0
+netty_allocator_memory_used{allocator_type="PooledByteBufAllocator",id="1215546949",memory_type="heap",} 0.0
+# HELP vendor_statistics_hit_ratio Percentage hit/(hit+miss) ratio for the cache
+# TYPE vendor_statistics_hit_ratio gauge
+vendor_statistics_hit_ratio{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hit_ratio{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hit_ratio{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hit_ratio{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hit_ratio{cache="keys",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hit_ratio{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hit_ratio{cache="authorization",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hit_ratio{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hit_ratio{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hit_ratio{cache="users",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hit_ratio{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_hit_ratio{cache="realms",cache_manager="keycloak",node="keycloak-0-61314",} 0.7980769230769231
+# HELP vendor_jgroups_unicast3_get_xmit_table_missing_messages Total number of missing messages in all receive windows
+# TYPE vendor_jgroups_unicast3_get_xmit_table_missing_messages gauge
+vendor_jgroups_unicast3_get_xmit_table_missing_messages{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP jvm_gc_memory_promoted_bytes_total Count of positive increases in the size of the old generation memory pool before GC to after GC
+# TYPE jvm_gc_memory_promoted_bytes_total counter
+jvm_gc_memory_promoted_bytes_total 4.6703512E7
+# HELP vendor_statistics_miss_primary_owner_total The number of single key read misses when this node is the primary owner
+# TYPE vendor_statistics_miss_primary_owner_total counter
+vendor_statistics_miss_primary_owner_total{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_miss_primary_owner_total{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_miss_primary_owner_total{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_miss_primary_owner_total{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} 1.0
+vendor_statistics_miss_primary_owner_total{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_miss_primary_owner_total{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} 1.0
+vendor_statistics_miss_primary_owner_total{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_miss_primary_owner_total{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+# HELP vendor_jgroups_unicast3_get_num_connections Returns the total number of outgoing (send) and incoming (receive) connections
+# TYPE vendor_jgroups_unicast3_get_num_connections gauge
+vendor_jgroups_unicast3_get_num_connections{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP vendor_jgroups_tcp_get_open_connections 
+# TYPE vendor_jgroups_tcp_get_open_connections gauge
+vendor_jgroups_tcp_get_open_connections{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP vendor_statistics_stores Number of cache attribute put operations
+# TYPE vendor_statistics_stores gauge
+vendor_statistics_stores{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_stores{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_stores{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_stores{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} 1.0
+vendor_statistics_stores{cache="keys",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_stores{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_stores{cache="authorization",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_stores{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_stores{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} 1.0
+vendor_statistics_stores{cache="users",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_stores{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_stores{cache="realms",cache_manager="keycloak",node="keycloak-0-61314",} 18.0
+# HELP vendor_local_container_stats_memory_used The amount of memory used by the local JVM in bytes
+# TYPE vendor_local_container_stats_memory_used gauge
+vendor_local_container_stats_memory_used{cache_manager="keycloak",node="keycloak-0-61314",} 1.07007976E8
+# HELP vendor_jgroups_tcp_get_num_bytes_received Total number of bytes received (unicast + multicast)
+# TYPE vendor_jgroups_tcp_get_num_bytes_received gauge
+vendor_jgroups_tcp_get_num_bytes_received{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP vendor_jgroups_nakack2_get_num_messages_sent Number of messages sent
+# TYPE vendor_jgroups_nakack2_get_num_messages_sent gauge
+vendor_jgroups_nakack2_get_num_messages_sent{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 9.0
+# HELP vendor_jgroups_tcp_get_num_mcast_bytes_sent Number of multicast bytes sent
+# TYPE vendor_jgroups_tcp_get_num_mcast_bytes_sent gauge
+vendor_jgroups_tcp_get_num_mcast_bytes_sent{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 19039.0
+# HELP vendor_jgroups_tcp_get_num_ucasts_received Number of unicast messages received
+# TYPE vendor_jgroups_tcp_get_num_ucasts_received gauge
+vendor_jgroups_tcp_get_num_ucasts_received{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP vendor_jgroups_mfc_get_number_of_blockings Number of times flow control blocks sender
+# TYPE vendor_jgroups_mfc_get_number_of_blockings gauge
+vendor_jgroups_mfc_get_number_of_blockings{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP vendor_jgroups_unicast3_get_num_acks_received Number of acks received
+# TYPE vendor_jgroups_unicast3_get_num_acks_received gauge
+vendor_jgroups_unicast3_get_num_acks_received{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP vendor_jgroups_tcp_get_different_version_messages Number of messages from members with a different JGroups version
+# TYPE vendor_jgroups_tcp_get_different_version_messages gauge
+vendor_jgroups_tcp_get_different_version_messages{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP jvm_threads_started_threads_total The total number of application threads started in the JVM
+# TYPE jvm_threads_started_threads_total counter
+jvm_threads_started_threads_total 37.0
+# HELP agroal_reap_count_total Number of connections removed from the pool for being idle.
+# TYPE agroal_reap_count_total counter
+agroal_reap_count_total{datasource="default",} 0.0
+# HELP vendor_jgroups_mfc_get_number_of_credit_responses_received 
+# TYPE vendor_jgroups_mfc_get_number_of_credit_responses_received gauge
+vendor_jgroups_mfc_get_number_of_credit_responses_received{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP vendor_jgroups_tcp_get_num_batches_sent Number of batches sent (by the bundler)
+# TYPE vendor_jgroups_tcp_get_num_batches_sent gauge
+vendor_jgroups_tcp_get_num_batches_sent{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP vendor_statistics_number_of_entries_in_memory Number of entries currently in-memory excluding expired entries
+# TYPE vendor_statistics_number_of_entries_in_memory gauge
+vendor_statistics_number_of_entries_in_memory{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} -1.0
+vendor_statistics_number_of_entries_in_memory{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} -1.0
+vendor_statistics_number_of_entries_in_memory{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} -1.0
+vendor_statistics_number_of_entries_in_memory{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} -1.0
+vendor_statistics_number_of_entries_in_memory{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} -1.0
+vendor_statistics_number_of_entries_in_memory{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} -1.0
+vendor_statistics_number_of_entries_in_memory{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} -1.0
+vendor_statistics_number_of_entries_in_memory{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} -1.0
+# HELP vendor_rpc_manager_success_ratio_floating_point Successful replications as a ratio of total replications in numeric double format
+# TYPE vendor_rpc_manager_success_ratio_floating_point gauge
+vendor_rpc_manager_success_ratio_floating_point{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_rpc_manager_success_ratio_floating_point{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_rpc_manager_success_ratio_floating_point{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_rpc_manager_success_ratio_floating_point{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_rpc_manager_success_ratio_floating_point{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_rpc_manager_success_ratio_floating_point{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_rpc_manager_success_ratio_floating_point{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_rpc_manager_success_ratio_floating_point{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+# HELP jvm_gc_overhead An approximation of the percent of CPU time used by GC activities over the last lookback period or since monitoring began, whichever is shorter, in the range [0..1]
+# TYPE jvm_gc_overhead gauge
+jvm_gc_overhead 0.0
+# HELP vendor_jgroups_nakack2_get_xmit_table_num_compactions Number of retransmit table compactions
+# TYPE vendor_jgroups_nakack2_get_xmit_table_num_compactions gauge
+vendor_jgroups_nakack2_get_xmit_table_num_compactions{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP base_memory_committedNonHeap_bytes Displays the amount of memory that is committed for the Java virtual machine to use.
+# TYPE base_memory_committedNonHeap_bytes gauge
+base_memory_committedNonHeap_bytes 1.67247872E8
+# HELP jvm_threads_daemon_threads The current number of live daemon threads
+# TYPE jvm_threads_daemon_threads gauge
+jvm_threads_daemon_threads 26.0
+# HELP vendor_jgroups_mfc_get_average_time_blocked Average time blocked (in ms) in flow control when trying to send a message
+# TYPE vendor_jgroups_mfc_get_average_time_blocked gauge
+vendor_jgroups_mfc_get_average_time_blocked{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP vendor_statistics_remove_misses Number of cache removals where keys were not found
+# TYPE vendor_statistics_remove_misses gauge
+vendor_statistics_remove_misses{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_misses{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_misses{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_misses{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_misses{cache="keys",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_misses{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_misses{cache="authorization",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_misses{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_misses{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_misses{cache="users",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_misses{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_misses{cache="realms",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+# HELP base_thread_count Displays the current thread count.
+# TYPE base_thread_count gauge
+base_thread_count 33.0
+# HELP base_memory_initNonHeap_bytes Displays the initial amount of allocated memory, in bytes, for off-heap storage.
+# TYPE base_memory_initNonHeap_bytes gauge
+base_memory_initNonHeap_bytes 7667712.0
+# HELP agroal_creation_count_total Number of created connections.
+# TYPE agroal_creation_count_total counter
+agroal_creation_count_total{datasource="default",} 2.0
+# HELP vendor_statistics_remove_hit_times_seconds The remove hits times
+# TYPE vendor_statistics_remove_hit_times_seconds summary
+vendor_statistics_remove_hit_times_seconds_count{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_hit_times_seconds_sum{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_hit_times_seconds_count{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_hit_times_seconds_sum{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_hit_times_seconds_count{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_hit_times_seconds_sum{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_hit_times_seconds_count{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_hit_times_seconds_sum{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_hit_times_seconds_count{cache="keys",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_hit_times_seconds_sum{cache="keys",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_hit_times_seconds_count{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_hit_times_seconds_sum{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_hit_times_seconds_count{cache="authorization",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_hit_times_seconds_sum{cache="authorization",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_hit_times_seconds_count{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_hit_times_seconds_sum{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_hit_times_seconds_count{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_hit_times_seconds_sum{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_hit_times_seconds_count{cache="users",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_hit_times_seconds_sum{cache="users",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_hit_times_seconds_count{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_hit_times_seconds_sum{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_hit_times_seconds_count{cache="realms",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_hit_times_seconds_sum{cache="realms",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+# HELP vendor_passivation_passivations Number of passivation events
+# TYPE vendor_passivation_passivations gauge
+vendor_passivation_passivations{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_passivation_passivations{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_passivation_passivations{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_passivation_passivations{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_passivation_passivations{cache="keys",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_passivation_passivations{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_passivation_passivations{cache="authorization",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_passivation_passivations{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_passivation_passivations{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_passivation_passivations{cache="users",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_passivation_passivations{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_passivation_passivations{cache="realms",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+# HELP netty_allocator_pooled_threadlocal_caches  
+# TYPE netty_allocator_pooled_threadlocal_caches gauge
+netty_allocator_pooled_threadlocal_caches{allocator_type="PooledByteBufAllocator",id="1215546949",} 3.0
+netty_allocator_pooled_threadlocal_caches{allocator_type="PooledByteBufAllocator",id="1907364633",} 0.0
+# HELP vendor_jgroups_tcp_get_different_cluster_messages Number of messages from members in a different cluster
+# TYPE vendor_jgroups_tcp_get_different_cluster_messages gauge
+vendor_jgroups_tcp_get_different_cluster_messages{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP vendor_statistics_off_heap_memory_used Amount off-heap memory used by this cache (bytes)
+# TYPE vendor_statistics_off_heap_memory_used gauge
+vendor_statistics_off_heap_memory_used{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_off_heap_memory_used{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_off_heap_memory_used{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_off_heap_memory_used{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_off_heap_memory_used{cache="keys",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_off_heap_memory_used{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_off_heap_memory_used{cache="authorization",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_off_heap_memory_used{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_off_heap_memory_used{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_off_heap_memory_used{cache="users",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_off_heap_memory_used{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_off_heap_memory_used{cache="realms",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+# HELP vendor_jgroups_unicast3_get_num_messages_received 
+# TYPE vendor_jgroups_unicast3_get_num_messages_received gauge
+vendor_jgroups_unicast3_get_num_messages_received{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP vendor_memoryPool_Metaspace_usage_max_bytes Peak usage of the Metaspace memory pool
+# TYPE vendor_memoryPool_Metaspace_usage_max_bytes gauge
+vendor_memoryPool_Metaspace_usage_max_bytes 1.22207216E8
+# HELP vendor_jgroups_nakack2_get_current_seqno 
+# TYPE vendor_jgroups_nakack2_get_current_seqno gauge
+vendor_jgroups_nakack2_get_current_seqno{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 9.0
+# HELP agroal_awaiting_count Approximate number of threads blocked, waiting to acquire a connection.
+# TYPE agroal_awaiting_count gauge
+agroal_awaiting_count{datasource="default",} 0.0
+# HELP base_cpu_systemLoadAverage Displays the system load average for the last minute. The system load average is the sum of the number of runnable entities queued to the available processors and the number of runnable entities running on the available processors averaged over a period of time. The way in which the load average is calculated is operating system specific but is typically a damped time-dependent average. If the load average is not available, a negative value is displayed. This attribute is designed to provide a hint about the system load and may be queried frequently. The load average might be unavailable on some platforms where it is expensive to implement this method.
+# TYPE base_cpu_systemLoadAverage gauge
+base_cpu_systemLoadAverage 2.6
+# HELP vendor_state_transfer_manager_inflight_transactional_segment_count The number of in-flight transactional segments the local node requested from other nodes
+# TYPE vendor_state_transfer_manager_inflight_transactional_segment_count gauge
+vendor_state_transfer_manager_inflight_transactional_segment_count{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_state_transfer_manager_inflight_transactional_segment_count{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_state_transfer_manager_inflight_transactional_segment_count{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_state_transfer_manager_inflight_transactional_segment_count{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_state_transfer_manager_inflight_transactional_segment_count{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_state_transfer_manager_inflight_transactional_segment_count{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_state_transfer_manager_inflight_transactional_segment_count{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_state_transfer_manager_inflight_transactional_segment_count{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+# HELP jvm_memory_used_bytes The amount of used memory
+# TYPE jvm_memory_used_bytes gauge
+jvm_memory_used_bytes{area="nonheap",id="CodeHeap 'profiled nmethods'",} 2.046848E7
+jvm_memory_used_bytes{area="heap",id="G1 Survivor Space",} 2978272.0
+jvm_memory_used_bytes{area="heap",id="G1 Old Gen",} 5.3178576E7
+jvm_memory_used_bytes{area="nonheap",id="Metaspace",} 1.22209272E8
+jvm_memory_used_bytes{area="nonheap",id="CodeHeap 'non-nmethods'",} 2311552.0
+jvm_memory_used_bytes{area="heap",id="G1 Eden Space",} 4.6137344E7
+jvm_memory_used_bytes{area="nonheap",id="Compressed Class Space",} 1.5489768E7
+jvm_memory_used_bytes{area="nonheap",id="CodeHeap 'non-profiled nmethods'",} 5245696.0
+# HELP vendor_jgroups_unicast3_get_xmit_table_deliverable_messages Total number of deliverable messages in all receive windows
+# TYPE vendor_jgroups_unicast3_get_xmit_table_deliverable_messages gauge
+vendor_jgroups_unicast3_get_xmit_table_deliverable_messages{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP vendor_statistics_current_number_of_entries_in_memory Number of entries currently in-memory excluding expired entries
+# TYPE vendor_statistics_current_number_of_entries_in_memory gauge
+vendor_statistics_current_number_of_entries_in_memory{cache="authorization",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_current_number_of_entries_in_memory{cache="keys",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_current_number_of_entries_in_memory{cache="users",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_current_number_of_entries_in_memory{cache="realms",cache_manager="keycloak",node="keycloak-0-61314",} 18.0
+# HELP vendor_memoryPool_Compressed_Class_Space_usage_max_bytes Peak usage of the Compressed Class Space memory pool
+# TYPE vendor_memoryPool_Compressed_Class_Space_usage_max_bytes gauge
+vendor_memoryPool_Compressed_Class_Space_usage_max_bytes 1.5490296E7
+# HELP vendor_jgroups_stable_get_stable_received 
+# TYPE vendor_jgroups_stable_get_stable_received gauge
+vendor_jgroups_stable_get_stable_received{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 62.0
+# HELP vendor_jgroups_stable_get_stable_sent 
+# TYPE vendor_jgroups_stable_get_stable_sent gauge
+vendor_jgroups_stable_get_stable_sent{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 62.0
+# HELP vendor_cache_container_stats_average_remove_time_nanos Cache container total average number of nanoseconds for all remove operation in this cache container
+# TYPE vendor_cache_container_stats_average_remove_time_nanos gauge
+vendor_cache_container_stats_average_remove_time_nanos{cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+# HELP agroal_blocking_time_average_milliseconds Average time an application waited to acquire a connection.
+# TYPE agroal_blocking_time_average_milliseconds gauge
+agroal_blocking_time_average_milliseconds{datasource="default",} 188.0
+# HELP netty_allocator_memory_pinned  
+# TYPE netty_allocator_memory_pinned gauge
+netty_allocator_memory_pinned{allocator_type="PooledByteBufAllocator",id="1215546949",memory_type="direct",} 0.0
+netty_allocator_memory_pinned{allocator_type="PooledByteBufAllocator",id="1907364633",memory_type="heap",} 0.0
+netty_allocator_memory_pinned{allocator_type="PooledByteBufAllocator",id="1907364633",memory_type="direct",} 0.0
+netty_allocator_memory_pinned{allocator_type="PooledByteBufAllocator",id="1215546949",memory_type="heap",} 0.0
+# HELP vendor_jgroups_nakack2_get_become_server_queue_size_actual Actual size of the become_server_queue
+# TYPE vendor_jgroups_nakack2_get_become_server_queue_size_actual gauge
+vendor_jgroups_nakack2_get_become_server_queue_size_actual{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP vendor_BufferPool_used_memory_direct_bytes The memory used by the NIO pool:direct
+# TYPE vendor_BufferPool_used_memory_direct_bytes gauge
+vendor_BufferPool_used_memory_direct_bytes 368721.0
+# HELP vendor_jgroups_unicast3_get_num_send_connections Returns the number of outgoing (send) connections
+# TYPE vendor_jgroups_unicast3_get_num_send_connections gauge
+vendor_jgroups_unicast3_get_num_send_connections{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP vendor_statistics_average_write_time Average number of milliseconds for a write operation in the cache
+# TYPE vendor_statistics_average_write_time gauge
+vendor_statistics_average_write_time{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_average_write_time{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_average_write_time{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_average_write_time{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} 116.0
+vendor_statistics_average_write_time{cache="keys",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_average_write_time{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_average_write_time{cache="authorization",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_average_write_time{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_average_write_time{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} 1.0
+vendor_statistics_average_write_time{cache="users",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_average_write_time{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_average_write_time{cache="realms",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+# HELP vendor_cache_container_stats_hit_ratio Cache container total percentage hit/(hit+miss) ratio for this cache
+# TYPE vendor_cache_container_stats_hit_ratio gauge
+vendor_cache_container_stats_hit_ratio{cache_manager="keycloak",node="keycloak-0-61314",} 0.7830188679245284
+# HELP vendor_jgroups_stable_get_num_votes The number of votes for the current digest
+# TYPE vendor_jgroups_stable_get_num_votes gauge
+vendor_jgroups_stable_get_num_votes{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP vendor_memoryPool_Compressed_Class_Space_usage_bytes Current usage of the Compressed Class Space memory pool
+# TYPE vendor_memoryPool_Compressed_Class_Space_usage_bytes gauge
+vendor_memoryPool_Compressed_Class_Space_usage_bytes 1.5490296E7
+# HELP vendor_jgroups_merge3_get_num_merge_events Number of times a MERGE event was sent up the stack
+# TYPE vendor_jgroups_merge3_get_num_merge_events gauge
+vendor_jgroups_merge3_get_num_merge_events{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP jvm_gc_concurrent_phase_time_seconds Time spent in concurrent phase
+# TYPE jvm_gc_concurrent_phase_time_seconds summary
+jvm_gc_concurrent_phase_time_seconds_count{action="end of concurrent GC pause",cause="No GC",gc="G1 Concurrent GC",} 2.0
+jvm_gc_concurrent_phase_time_seconds_sum{action="end of concurrent GC pause",cause="No GC",gc="G1 Concurrent GC",} 0.012
+# HELP jvm_gc_concurrent_phase_time_seconds_max Time spent in concurrent phase
+# TYPE jvm_gc_concurrent_phase_time_seconds_max gauge
+jvm_gc_concurrent_phase_time_seconds_max{action="end of concurrent GC pause",cause="No GC",gc="G1 Concurrent GC",} 0.0
+# HELP vendor_statistics_remove_hits Number of cache removal hits
+# TYPE vendor_statistics_remove_hits gauge
+vendor_statistics_remove_hits{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_hits{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_hits{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_hits{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_hits{cache="keys",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_hits{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_hits{cache="authorization",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_hits{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_hits{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_hits{cache="users",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_hits{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+vendor_statistics_remove_hits{cache="realms",cache_manager="keycloak",node="keycloak-0-61314",} 0.0
+# HELP vendor_jgroups_nakack2_get_xmit_table_num_purges Number of retransmit table purges
+# TYPE vendor_jgroups_nakack2_get_xmit_table_num_purges gauge
+vendor_jgroups_nakack2_get_xmit_table_num_purges{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 1.0
+# HELP vendor_rpc_manager_average_xsite_replication_time Returns the average replication time, in milliseconds, for a cross-site replication request
+# TYPE vendor_rpc_manager_average_xsite_replication_time gauge
+vendor_rpc_manager_average_xsite_replication_time{cache="offlineClientSessions",cache_manager="keycloak",node="keycloak-0-61314",} -1.0
+vendor_rpc_manager_average_xsite_replication_time{cache="loginFailures",cache_manager="keycloak",node="keycloak-0-61314",} -1.0
+vendor_rpc_manager_average_xsite_replication_time{cache="offlineSessions",cache_manager="keycloak",node="keycloak-0-61314",} -1.0
+vendor_rpc_manager_average_xsite_replication_time{cache="actionTokens",cache_manager="keycloak",node="keycloak-0-61314",} -1.0
+vendor_rpc_manager_average_xsite_replication_time{cache="clientSessions",cache_manager="keycloak",node="keycloak-0-61314",} -1.0
+vendor_rpc_manager_average_xsite_replication_time{cache="work",cache_manager="keycloak",node="keycloak-0-61314",} -1.0
+vendor_rpc_manager_average_xsite_replication_time{cache="authenticationSessions",cache_manager="keycloak",node="keycloak-0-61314",} -1.0
+vendor_rpc_manager_average_xsite_replication_time{cache="sessions",cache_manager="keycloak",node="keycloak-0-61314",} -1.0
+# HELP process_start_time_seconds Start time of the process since unix epoch.
+# TYPE process_start_time_seconds gauge
+process_start_time_seconds 1.745389293138E9
+# HELP base_gc_time_total Displays the approximate accumulated collection elapsed time in milliseconds. This attribute displays -1 if the collection elapsed time is undefined for this collector. The Java virtual machine implementation may use a high resolution timer to measure the elapsed time. This attribute might display the same value even if the collection count has been incremented if the collection elapsed time is very short.
+# TYPE base_gc_time_total counter
+base_gc_time_total{name="G1 Young Generation",} 202.0
+base_gc_time_total{name="G1 Old Generation",} 0.0
+base_gc_time_total{name="G1 Concurrent GC",} 12.0
+# HELP vendor_jgroups_nakack2_get_xmit_table_num_resizes Number of retransmit table resizes
+# TYPE vendor_jgroups_nakack2_get_xmit_table_num_resizes gauge
+vendor_jgroups_nakack2_get_xmit_table_num_resizes{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP vendor_jgroups_tcp_get_timer_threads Number of threads currently in the pool
+# TYPE vendor_jgroups_tcp_get_timer_threads gauge
+vendor_jgroups_tcp_get_timer_threads{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0
+# HELP vendor_jgroups_tcp_get_num_rejected_msgs 
+# TYPE vendor_jgroups_tcp_get_num_rejected_msgs gauge
+vendor_jgroups_tcp_get_num_rejected_msgs{cache_manager="keycloak",cluster="ISPN",node="keycloak-0-61314",} 0.0

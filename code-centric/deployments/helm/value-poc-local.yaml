@@ -11,7 +11,7 @@ command:
   - "/opt/keycloak/bin/kc.sh"
   - "--verbose"
   - "start"
-  - "--log-level=INFO,com.fk:trace"
+  - "--log-level=trace,com.fk:trace"
   # - "--features=admin-api,account-api,admin-fine-grained-authz"
   # - "--http-port=8080"
   # - "--hostname-strict=false"
@@ -85,14 +85,10 @@ extraEnv: |
     value: "ispn"
   - name: KC_CACHE_STACK
     value: "kubernetes"
-  - name: JAVA_OPTS_APPEND
-    value: "-Djgroups.dns.query=keycloak-headless"
-  - name: KC_PROXY_ADDRESS_FORWARDING
+  # - name: JAVA_OPTS_APPEND
+  #   value: "-Djgroups.dns.query=keycloak-headless"
+  # - name: KC_PROXY_ADDRESS_FORWARDING
     value: "true"
-  - name: KEYCLOAK_FRONTEND_URL
-    value: "https://dy-dev.fourkites.com"
-  - name: FRONTEND_URL
-    value: "https://dy-dev.fourkites.com"
 service:
   # The http Service port
   httpPort: 8080
