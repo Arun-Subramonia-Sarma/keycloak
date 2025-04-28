@@ -1,0 +1,32 @@
+---
+# Source: keycloakx/templates/service-http.yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: keycloak-http
+  namespace: default
+  labels:
+    helm.sh/chart: keycloakx-7.0.1
+    app.kubernetes.io/name: keycloak
+    app.kubernetes.io/instance: keycloak
+    app.kubernetes.io/version: "latest"
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/component: http
+spec:
+  type: ClusterIP
+  ports:
+    - name: 'http-internal'
+      port: 9000
+      protocol: TCP
+      targetPort: 'http-internal'
+    - name: http
+      port: 8080
+      targetPort: http
+      protocol: TCP
+    - name: https
+      port: 8443
+      targetPort: https
+      protocol: TCP
+  selector:
+    app.kubernetes.io/name: keycloak
+    app.kubernetes.io/instance: keycloak

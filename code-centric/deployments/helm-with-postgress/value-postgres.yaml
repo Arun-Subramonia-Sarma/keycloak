@@ -26,7 +26,7 @@ primary:
       my_init_script.sql: |
         CREATE SCHEMA keycloak;
         GRANT USAGE ON SCHEMA keycloak TO keycloak;
-        GRANT CREATE ON SCHEMA keycloak TO your_apkeycloakp_user;
+        GRANT CREATE ON SCHEMA keycloak TO keycloak;
         ALTER DATABASE keycloak SET search_path TO keycloak, public;
         alter schema keycloak owner to keycloak;
 

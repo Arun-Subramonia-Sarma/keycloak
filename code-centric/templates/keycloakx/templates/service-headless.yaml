@@ -1,0 +1,25 @@
+---
+# Source: keycloakx/templates/service-headless.yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: keycloak-headless
+  namespace: default
+  labels:
+    helm.sh/chart: keycloakx-7.0.1
+    app.kubernetes.io/name: keycloak
+    app.kubernetes.io/instance: keycloak
+    app.kubernetes.io/version: "latest"
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/component: headless
+spec:
+  type: ClusterIP
+  clusterIP: None
+  ports:
+    - name: http
+      port: 8080
+      targetPort: http
+      protocol: TCP
+  selector:
+    app.kubernetes.io/name: keycloak
+    app.kubernetes.io/instance: keycloak
