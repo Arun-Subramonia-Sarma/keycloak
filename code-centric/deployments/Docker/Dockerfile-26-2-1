@@ -5,7 +5,7 @@ COPY code-centric/deployments/Docker/*.jar /opt/keycloak/providers/
 RUN ls -l /opt/keycloak/providers/*.jar
 
 # Build with more verbose output
-RUN /opt/keycloak/bin/kc.sh build --spi-user-cache-default-enabled=true --health-enabled=true --metrics-enabled=true --db=postgres --features=admin-api,account-api,admin-fine-grained-authz --verbose
+RUN /opt/keycloak/bin/kc.sh build --spi-user-cache-default-enabled=true --http-relative-path=/expkeycloak --health-enabled=true --metrics-enabled=true --db=postgres --features=admin-api,account-api,admin-fine-grained-authz --verbose
 
 # Command to run Keycloak in production mode
 CMD ["start", "--optimized"]
